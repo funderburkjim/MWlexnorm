@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--doc:Defines the Sanskrit  lexical grammar structure,
+   based on 'Grammar Table informal DTD'  from
+   P. Scharf , found in 'AutoGramInstr2007Dec6.txt'
+   This version constructed by ejf.
+   01-22-2008 Begin task
+   01-25-2008, 01-31-2008
+     dict has the constant value MW as its text.
+     dictref contains the value of the <L> element for MW; this
+       is a number, possibly with a decimal point: xxxxxxx.xx
+     dictkey element has the dictionary key1. dictkey is deriveable
+          from dictkey2, but the algorithm is complicated.
+     dictkey2 has the 'expanded' key2 from dictionary in
+          a CDATA structure. This is so the xml structures that
+          may appear do not need to be specified in this DTD.
+     dictlex element uses a CDATA structure to
+      contain the lexical information from the dictionary. This is
+      so that the xml structures that may appear do not need to be
+      specified in this DTD.
+     stem has default value equal to the value of 'dictkey'
+     inflectid, if present, indicates that key1(2) is an inflected item.
+      It's value is the Scharf-style (e.g., m1d)  inflection type of key1.
+     loan, if present, indicates the word is a loan word and is
+          indeclineable in Sanskrit.
+    All the preceding data (dict - stem, and optionally, loan) are
+      filled in by the program mwupdate/filter/lexicalgrammar.pl on
+      the U. of Cologne server.
+-->
+<!ELEMENT lexicalgrammar (gram)* >
+<!ELEMENT gram  (dict,dictref,dictkey2,dictkey,dictlex,stem,loan?,lexid?,inflectid?)>
+<!ELEMENT dict (#PCDATA) >
+<!ELEMENT dictref (#PCDATA )>
+<!ELEMENT  dictkey2 (#PCDATA )>
+<!ELEMENT dictkey  (#PCDATA)>
+<!ELEMENT  dictlex (#PCDATA )>
+<!ELEMENT stem (#PCDATA) >
+<!ELEMENT loan EMPTY >
+<!ELEMENT lexid (#PCDATA) >
+<!ELEMENT inflectid (#PCDATA) >
