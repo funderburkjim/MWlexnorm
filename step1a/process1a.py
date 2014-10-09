@@ -6,6 +6,7 @@
  Write lexnorm frequency of occurence to message.txt
  Oct 6, 2014 - simplify the printed form of dictref, 
    e.g. from 0029224.00 to 29224.
+ Oct 8, 2014 - 
 """
 import sys, re,codecs
 
@@ -174,10 +175,14 @@ def process_record(data,normlex,normerrs):
  outarr = []
  # Oct 6 - simplify dictref for output
  dictref = datah.dictref
- dictref = dictref.strip('.0') # remove leading 0 and trail 0 or .
+ #dictref = dictref.strip('.0') # remove leading 0 and trail 0 or .
+ # Oct 8 - Formerly, 0012340.00 would truncate to 1234, which is wrong
+ dictref = dictref.lstrip('0')
+ dictref = dictref.rstrip('0')
+ dictref = dictref.rstrip('.')
  outarr.append(dictref)
  outarr.append(datah.dictkey)
- #outarr.append(datah.dictkey2)  Don't show key2
+ outarr.append(datah.dictkey2) # show key2
  chklen = len(outarr)
  lexadj = datah.dictlex_adj
  if datah.stem:

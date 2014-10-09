@@ -1,6 +1,12 @@
 readme.txt for lexnorm/step1a
 Oct 6, 2014
 Jim Funderburk
+Oct 8, 2014
+  Per Marcis request, the key2 value is now the 3rd element on each line.
+  In the examples in this readme file, these key2 values are not shown.
+  Also, since this data comes from mw.xml (and not monier.xml), the
+  accents FOLLOW the vowel (in monier.xml accents PRECEDE the vowel).
+  This is for consistency with a change in Scharf's SLP1 protocol.
 
 The files lexnorm.txt  contains a normalization of the grammatical information 
 present in lexicalgrammar.xml (which is described in file step0/readme.txt of 

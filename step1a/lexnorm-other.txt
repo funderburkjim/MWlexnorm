@@ -1,283 +1,283 @@
-5	a	LEXID=pron,STEM=idam
-886	agnAmarutO	INFLECTID=m1d,STEM=agnAmarut
-887	agnAvizRU	INFLECTID=m1d,STEM=agnAvizRu
-1155	agnIndrO	INFLECTID=m1d,STEM=agnIndra
-1157	agnIparjanyO	INFLECTID=m1d,STEM=agnIparjanya
-1158	agnIvaruRO	INFLECTID=m1d,STEM=agnIvaruRa
-1159	agnIzomA	INFLECTID=m1d,STEM=agnIzoma
-1161	agnIzomO	INFLECTID=m1d,STEM=agnIzoma
-3654	adas	LEXID=pron,STEM=adas
-3971	aDara	LEXID=pron,STEM=aDara
-8174	antara	LEXID=pron,STEM=antara
-8561	anya	LEXID=pron,STEM=anya
-8633	anyatama	LEXID=pron,STEM=anyatama
-8634	anyatara	LEXID=pron,STEM=anyatara
-9405	apara	LEXID=pron,STEM=apara
-11065	abDijO	INFLECTID=m1d,STEM=abDija
-114	aBijidviSvajitO	INFLECTID=f1d,STEM=aBijidviSvajit
-14147	amu	LEXID=pron,STEM=adas
-14749	ayam	LEXID=pron,STEM=idam
-14953	ayuta	LEXID=card,STEM=ayuta
-15602	arkajO	INFLECTID=m1d,STEM=arkaja
-15799	arRAcitraraTA	INFLECTID=m1d,STEM=arRAcitraraTa
-15981	arTaSabdO	INFLECTID=m1d,STEM=arTaSabda
-16359	arbuda	LEXID=card,STEM=arbuda
-17754	avaBfTayajUMzi	INFLECTID=n1p,STEM=avaBfTayajus
-17853	avara	LEXID=pron,STEM=avara
-19584	aSIti	LEXID=card,STEM=aSIti
-20148	aSvinIputrO	INFLECTID=m1d,STEM=aSvinIputra
-20149	aSvinIsutO	INFLECTID=m1d,STEM=aSvinIsuta
-20173	azwan	LEXID=card,STEM=azwan
-20174	azwa	LEXID=card,STEM=azwan
-20187	azwacatvAriMSat	LEXID=card,STEM=azwacatvAriMSat
-20199	azwanavati	LEXID=card,STEM=azwanavati
-20203	azwapaYcASat	LEXID=card,STEM=azwapaYcASat
-20244	azwazazwi	LEXID=card,STEM=azwazazwi
-20246	azwasaptati	LEXID=card,STEM=azwasaptati
-2026	azwAcatvAriMSat	LEXID=card,STEM=azwAcatvAriMSat
-20264	azwAtriMSat	LEXID=card,STEM=azwAtriMSat
-20269	azwAdaSan	LEXID=card,STEM=azwAdaSan
-20274	azwAnavati	LEXID=card,STEM=azwAnavati
-20276	azwApaYcASat	LEXID=card,STEM=azwApaYcASat
-20289	azwApruz	LEXID=card,STEM=azwAviMSati
-20301	azwAzazwi	LEXID=card,STEM=azwAzazwi
-20302	azwAsaptati	LEXID=card,STEM=azwAsaptati
-20317	azwASIti	LEXID=card,STEM=azwASIti
-21493.1	asma	LEXID=pron,STEM=asmad
-21497	asmat	LEXID=pron,STEM=asmad
-215	asmad	LEXID=pron,STEM=asmad
-21500.1	asmad	LEXID=pron,STEM=asmad
-21659	aham	LEXID=pron,STEM=asmad
-23917	AdityacandrO	INFLECTID=m1d,STEM=Adityacandra
-26943	Ava	LEXID=pron,STEM=asmad
-26943.1	Ava	LEXID=pron,STEM=asmad
-26943.2	Ava	LEXID=pron,STEM=asmad
-26943.3	Ava	LEXID=pron,STEM=asmad
-28537	i	LEXID=pron,STEM=idam
-28714	itara	LEXID=pron,STEM=itara
-28801	idam	LEXID=pron,STEM=idam
-3098	utkzepO	INFLECTID=m1d,STEM=utkzepa
-3114	uttara	LEXID=pron,STEM=uttara
-35046	upapakzO	INFLECTID=m1d,STEM=upapakza
-37052	uBa	LEXID=pron,STEM=uBa
-37053	uBaya	LEXID=pron,STEM=uBaya
-39168	eka	LEXID=pron,STEM=eka
-39218	ekacatvAriMSat	LEXID=card,STEM=ekacatvAriMSat
-39337	ekadehO	INFLECTID=m1d,STEM=ekadeha
-39362	ekanavati	LEXID=card,STEM=ekanavati
-39384	ekapaYcASat	LEXID=card,STEM=ekapaYcASat
-39594	ekaviMSat	LEXID=card,STEM=ekaviMSati
-39595	ekaviMSati	LEXID=card,STEM=ekaviMSati
-39686	ekazazwi	LEXID=card,STEM=ekazazwi
-39692	ekasaptati	LEXID=card,STEM=ekasaptati
-39766	ekANgO	INFLECTID=m1d,STEM=ekANga
-39786	ekAdaSa	LEXID=card,STEM=ekAdaSan
-39787	ekAdaSa	LEXID=card,STEM=ekAdaSan
-39792	ekAdaSan	LEXID=card,STEM=ekAdaSan
-39894	ekASIti	LEXID=card,STEM=ekASIti
-39922	ekEka	LEXID=pron,STEM=ekEka
-39942.1	ekonaviMSati	LEXID=card,STEM=ekonaviMSati
-40041	etad	LEXID=pron,STEM=etad
-40062	etat	LEXID=pron,STEM=etad
-40073	etan	LEXID=pron,STEM=etad
-40112	ena	LEXID=pron,STEM=idam,etad
-4025	eza	LEXID=pron,STEM=etad
-41257	OlUKalO	INFLECTID=m1d,STEM=OlUKala
-41336	ka	LEXID=pron,STEM=kim
-42646	katama	LEXID=pron,STEM=katama
-42653	katara	LEXID=pron,STEM=katara
-46068	kalkuzI	INFLECTID=f/n1d,STEM=kalkuzi
-47217	kAkutsTO	INFLECTID=m1d,STEM=kAkutsTa
-48748	kArtakOjapO	INFLECTID=m1d,STEM=kArtakOjapa
-50296	kiM	LEXID=pron,STEM=kim
-50338	kiM	LEXID=pron,STEM=kim
-50603	kilAtAkulI	INFLECTID=m1d,STEM=kilAtAkuli
-53471	kuSIlavO	INFLECTID=m1d,STEM=kuSIlava
-5476	kfcCrAtikfcCrO	INFLECTID=m1d,STEM=kfcCrAtikfcCra
-55179	kfzRO	INFLECTID=m1d,STEM=kfzRa
-56461	kowi	LEXID=card,STEM=kowi
-57709	kratUdakzO	INFLECTID=m1d,STEM=kratUdakza
-58224	kruYcO	INFLECTID=m1d,STEM=kruYca
-61568	Karva	LEXID=card,STEM=Karva
-62267	gaNgAyamune	INFLECTID=f1d,STEM=gaNgAyamunA
-65661	guRavfdDI	INFLECTID=f1d,STEM=guRavfdDi
-71074	catasf	LEXID=card,STEM=catur
-71103	catuHzazwi	LEXID=card,STEM=catuHzazwi
-71117	catuHsaptati	LEXID=card,STEM=catuHsaptati
-71131	catur	LEXID=card,STEM=catur
-71156	caturaSIti	LEXID=card,STEM=caturaSIti
-71221	caturdaSan	LEXID=card,STEM=caturdaSan
-7124	caturnavati	LEXID=card,STEM=caturnavati
-71305	caturviMSat	LEXID=card,STEM=caturviMSati
-71306	caturviMSati	LEXID=card,STEM=caturviMSati
-71385	catuScatvAriMSat	LEXID=card,STEM=catuScatvAriMSat
-71465	catustriMSat	LEXID=card,STEM=catustriMSat
-71478	catvAriMSat	LEXID=card,STEM=catvAriMSat
-71484	catvAriMSati	LEXID=card,STEM=catvAriMSat
-77261	jampatI	INFLECTID=m1d,STEM=jampati
-78977	jAyampatI	INFLECTID=m1d,STEM=jAyampati
-78985	jAyApatI	INFLECTID=m1d,STEM=jAyApati
-81546	ta	LEXID=pron,STEM=tad
-81547	tatama	LEXID=pron,STEM=tatama
-8155	tatara	LEXID=pron,STEM=tatara
-81811	tat	LEXID=pron,STEM=tad
-81964	tac	LEXID=pron,STEM=tad
-82046	tad	LEXID=pron,STEM=tad
-82186	tan	LEXID=pron,STEM=tad
-87399	tyad	LEXID=pron,STEM=tyad
-8741	tra	LEXID=card,STEM=tri
-87459	trayaHpaYcASat	LEXID=card,STEM=trayaHpaYcASat
-8746	trayaHzazwi	LEXID=card,STEM=trayaHzazwi
-87462	trayaHsaptati	LEXID=card,STEM=trayaHsaptati
-87465	trayaScatvAriMSat	LEXID=card,STEM=trayaScatvAriMSat
-87476	trayastriMSat	LEXID=card,STEM=trayastriMSat
-87477	trayastriMSati	LEXID=card,STEM=trayastriMSat
-87491	trayodaSa	LEXID=card,STEM=trayodaSan
-87496	trayonavati	LEXID=card,STEM=trayonavati
-87501	trayoviMSati	LEXID=card,STEM=trayoviMSati
-87572	tri	LEXID=card,STEM=tri
-8769	tricatvAriMSat	LEXID=card,STEM=tricatvAriMSat
-87845	trinavati	LEXID=card,STEM=trinavati
-87873	tripaYcASat	LEXID=card,STEM=tripaYcASat
-88426	trizazwi	LEXID=card,STEM=trizazwi
-88459	trisaptati	LEXID=card,STEM=trisaptati
-88531	triMSat	LEXID=card,STEM=triMSat
-88537	triMSati	LEXID=card,STEM=triMSat
-88874	tryaSIti	LEXID=card,STEM=tryaSIti
-88921	tva	LEXID=pron,STEM=tva
-88926	tva	LEXID=pron,STEM=yuzmad
-88928	tva	LEXID=pron,STEM=yuzmad
-89389	dakziRa	LEXID=pron,STEM=dakziRa
-90809	daSa	LEXID=card,STEM=daSan
-91063	daSan	LEXID=card,STEM=daSan
-92266	divaspfTivyO	INFLECTID=f1d,STEM=divaspfTivI
-97356	dyAvAkzame	INFLECTID=f1d,STEM=dyAvAkzamA
-97359	dyAvABUmI	INFLECTID=f1d,STEM=dyAvABUmi
-97383	dyoBUmI	INFLECTID=f1d,STEM=dyoBUmi
-98101	dva	LEXID=card,STEM=dvi
-98158	dvAcatvAriMSat	LEXID=card,STEM=dvAcatvAriMSat
-98158.1	dvAcatvAriMSati	LEXID=card,STEM=dvAcatvAriMSat
-98162	dvAtriMSat	LEXID=card,STEM=dvAtriMSat
-9817	dvAnavati	LEXID=card,STEM=dvAnavati
-98173	dvApaYcASat	LEXID=card,STEM=dvApaYcASat
-98184	dvAviMSati	LEXID=card,STEM=dvAviMSati
-98193	dvAzazwi	LEXID=card,STEM=dvAzazwi
-98196	dvAsaptati	LEXID=card,STEM=dvAsaptati
-9821	dvAdaSan	LEXID=card,STEM=dvAdaSan
-98211	dvAdaSa	LEXID=card,STEM=dvAdaSan
-98396	dvi	LEXID=pron,STEM=dvi
-98433	dvicatvAriMSat	LEXID=card,STEM=dvicatvAriMSat
-98504	dvinavati	LEXID=card,STEM=dvinavati
-9853	dvipaYcASat	LEXID=card,STEM=dvipaYcASat
-98733	dvizazwi	LEXID=card,STEM=dvizazwi
-98748	dvisaptati	LEXID=card,STEM=dvisaptati
-99179	dvyaSIti	LEXID=card,STEM=dvyaSIti
-104631	navacatvAriMSat	LEXID=card,STEM=navacatvAriMSat
-10465	navanavati	LEXID=card,STEM=navanavati
-104653	navapaYcASat	LEXID=card,STEM=navapaYcASat
-104694	navazazwi	LEXID=card,STEM=navazazwi
-104698	navasaptati	LEXID=card,STEM=navasaptati
-104721	navASIti	LEXID=card,STEM=navASIti
-104731	navati	LEXID=card,STEM=navati
-104741	navan	LEXID=card,STEM=navan
-10801	niKarva	LEXID=card,STEM=niKarva
-112215	nema	LEXID=pron,STEM=nema
-112217	nema	LEXID=pron,STEM=nema
-112287	nezwApotArO	INFLECTID=m1d,STEM=nezwApotf
-112288	nezwodgAtArO	INFLECTID=m1d,STEM=nezwodgAtf
-112617	nO	LEXID=pron,STEM=asmad
-113536	paYca	LEXID=card,STEM=paYcan
-113609	paYcacatvAriMSat	LEXID=card,STEM=paYcacatvAriMSat
-113657	paYcatriMSati	LEXID=card,STEM=NONE
-113672	paYcadaSa	LEXID=card,STEM=paYcadaSan
-113673	paYcadaSan	LEXID=card,STEM=paYcadaSan
-113705	paYcanavati	LEXID=card,STEM=paYcanavati
-113723	paYcapaYcASat	LEXID=card,STEM=paYcapaYcASat
-113918	paYcaviMSat	LEXID=card,STEM=paYcaviMSati
-113919	paYcaviMSati	LEXID=card,STEM=paYcaviMSati
-113971	paYcazazwi	LEXID=card,STEM=paYcazazwi
-113979	paYcasaptati	LEXID=card,STEM=paYcasaptati
-114102	paYcASIti	LEXID=card,STEM=paYcASIti
-114155	paYcan	LEXID=card,STEM=paYcan
-114203	paYcASat	LEXID=card,STEM=paYcASat
-11421	paYcASati	LEXID=card,STEM=paYcASat
-116005	para	LEXID=pron,STEM=para
-127816	pUrva	LEXID=pron,STEM=pUrva
-136264.1	prayuta	LEXID=card,STEM=prayuta
-149107	Bavat	LEXID=pron,STEM=Bavat
-149114	Bavad	LEXID=pron,STEM=Bavat
-149128	Bavan	LEXID=pron,STEM=Bavat
-153874.1	ma	LEXID=pron,STEM=asmad
-153874.2	ma	LEXID=pron,STEM=asmad
-153874.3	ma	LEXID=pron,STEM=asmad
-155043	mat	LEXID=pron,STEM=asmad
-155241	mad	LEXID=pron,STEM=asmad
-155261	mat	LEXID=pron,STEM=asmad
-155285	man	LEXID=pron,STEM=asmad
-160663	mahArbuda	LEXID=card,STEM=mahArbuda
-162348	mAtarapitarO	INFLECTID=m1d,STEM=mAtarapitf
-168977	yatama	LEXID=pron,STEM=yatama
-168979	yatara	LEXID=pron,STEM=yatara
-170148	yad	LEXID=pron,STEM=yad
-170186	yac	LEXID=pron,STEM=yad
-17019	yat	LEXID=pron,STEM=yad
-170208	yan	LEXID=pron,STEM=yad
-172148	yuva	LEXID=pron,STEM=yuzmad
-172212	yuzmat	LEXID=pron,STEM=yuzmad
-172214	yuzmad	LEXID=pron,STEM=yuzmad
-172222	yuzmA	LEXID=pron,STEM=yuzmad
-177135	rAtryahanI	INFLECTID=n1d,STEM=rAtryahan
-180336	lakza	LEXID=card,STEM=lakza
-181567	lambAviSvavayasO	INFLECTID=m1d,STEM=lambAviSvavayas
-18647	vayam	LEXID=pron,STEM=asmad
-188559	vas	LEXID=pron,STEM=yuzmad
-190968	vAm	LEXID=pron,STEM=yuzmad
-19374	viMSati	LEXID=card,STEM=viMSati
-193774	viMSat	LEXID=card,STEM=viMSati
-200987	viSva	LEXID=pron,STEM=viSva
-211813	Sata	LEXID=card,STEM=Sata
-219008	SukrAmanTinO	INFLECTID=m1d,STEM=SukrAmanTin
-22494	zaz	LEXID=card,STEM=zaz
-224978	zawcatvAriMSat	LEXID=card,STEM=zawcatvAriMSat
-224997	zawtriMSat	LEXID=card,STEM=zawtriMSat
-224998	zawtriMSati	LEXID=card,STEM=zawtriMSat
-225007	zawpaYcASat	LEXID=card,STEM=zawpaYcASat
-22504	zawzazwi	LEXID=card,STEM=zawzazwi
-225045	zawsaptati	LEXID=card,STEM=zawsaptati
-225111	zaqaSIti	LEXID=card,STEM=zaqaSIti
-225251	zaqviMSat	LEXID=card,STEM=zaqviMSati
-225252	zaqviMSati	LEXID=card,STEM=zaqviMSati
-225269	zaRRavati	LEXID=card,STEM=zaRRavati
-225301	zazwi	LEXID=card,STEM=zazwi
-225419	zoqaSa	LEXID=card,STEM=zoqaSan
-225484	zoqaSan	LEXID=card,STEM=zoqaSan
-225593	sa	LEXID=pron,STEM=tad
-225624	saMyatI	INFLECTID=n1d,STEM=saMyat
-232431	saptan	LEXID=card,STEM=saptan
-232432	sapta	LEXID=card,STEM=saptan
-232458	saptacatvAriMSat	LEXID=card,STEM=saptacatvAriMSat
-232476	saptatriMSat	LEXID=card,STEM=saptatriMSat
-232478	saptatriMSati	LEXID=card,STEM=saptatriMSat
-232484	saptadaSa	LEXID=card,STEM=saptadaSan
-232494	saptadaSan	LEXID=card,STEM=saptadaSan
-232511	saptanavati	LEXID=card,STEM=saptanavati
-232519	saptapaYcASat	LEXID=card,STEM=saptapaYcASat
-232615	saptaviMSat	LEXID=card,STEM=saptaviMSati
-232616	saptaviMSati	LEXID=card,STEM=saptaviMSati
-232654	saptazazwi	LEXID=card,STEM=saptazazwi
-232724	saptASIti	LEXID=card,STEM=saptASIti
-232753	saptati	LEXID=card,STEM=saptati
-232988	sama	LEXID=pron,STEM=sama
-238107	sarva	LEXID=pron,STEM=sarva
-240499	sahasra	LEXID=card,STEM=sahasra
-243121	sArisTAKA	LOAN
-244936	sima	LEXID=pron,STEM=sima
-245092	sItormile	INFLECTID=f1d,STEM=sItormilA
-251719	sUryAgnI	INFLECTID=m1d,STEM=sUryAgni
-25172	sUryAcandramasA	INFLECTID=m1d,STEM=sUryAcandramas
-251721	sUryAcandramasO	INFLECTID=m1d,STEM=sUryAcandramas
-251742	sUryAmAsA	INFLECTID=m1d,STEM=sUryAmAs
-25235	sevyasevakO	INFLECTID=m1d,STEM=sevyasevaka
-257773	sva	LEXID=pron,STEM=sva
-264497	hotADvaryU	INFLECTID=m1d,STEM=hotADvaryu
-264498	hotApotArO	INFLECTID=m1d,STEM=hotApotf
+5	a	a	LEXID=pron,STEM=idam
+886	agnAmarutO	agnA--marutO	INFLECTID=m1d,STEM=agnAmarut
+887	agnAvizRU	agnA--vizRU	INFLECTID=m1d,STEM=agnAvizRu
+1155	agnIndrO	agnI<srs/>ndrO/	INFLECTID=m1d,STEM=agnIndra
+1157	agnIparjanyO	agnI-parjanyO	INFLECTID=m1d,STEM=agnIparjanya
+1158	agnIvaruRO	agnI-va/ruRO	INFLECTID=m1d,STEM=agnIvaruRa
+1159	agnIzomA	agnI-zo/mA	INFLECTID=m1d,STEM=agnIzoma
+1161	agnIzomO	agnI-zo/mO	INFLECTID=m1d,STEM=agnIzoma
+3654	adas	ada/s	LEXID=pron,STEM=adas
+3971	aDara	a/Dara	LEXID=pron,STEM=aDara
+8174	antara	a/ntara	LEXID=pron,STEM=antara
+8561	anya	anya/	LEXID=pron,STEM=anya
+8633	anyatama	anya-tama	LEXID=pron,STEM=anyatama
+8634	anyatara	anya-tara/	LEXID=pron,STEM=anyatara
+9405	apara	a-para	LEXID=pron,STEM=apara
+11065	abDijO	ab-Di--jO	INFLECTID=m1d,STEM=abDija
+11400	aBijidviSvajitO	aBijid-viSvaji/tO	INFLECTID=f1d,STEM=aBijidviSvajit
+14147	amu	amu	LEXID=pron,STEM=adas
+14749	ayam	aya/m	LEXID=pron,STEM=idam
+14953	ayuta	a-yu/ta	LEXID=card,STEM=ayuta
+15602	arkajO	arka/--jO	INFLECTID=m1d,STEM=arkaja
+15799	arRAcitraraTA	a/rRA-citra/raTA	INFLECTID=m1d,STEM=arRAcitraraTa
+15981	arTaSabdO	a/rTa--SabdO	INFLECTID=m1d,STEM=arTaSabda
+16359	arbuda	a/rbuda	LEXID=card,STEM=arbuda
+17754	avaBfTayajUMzi	ava-BfTa/--yajUMzi	INFLECTID=n1p,STEM=avaBfTayajus
+17853	avara	a/vara	LEXID=pron,STEM=avara
+19584	aSIti	aSIti	LEXID=card,STEM=aSIti
+20148	aSvinIputrO	aSvinI-putrO	INFLECTID=m1d,STEM=aSvinIputra
+20149	aSvinIsutO	aSvinI-sutO	INFLECTID=m1d,STEM=aSvinIsuta
+20173	azwan	azwan	LEXID=card,STEM=azwan
+20174	azwa	azwa	LEXID=card,STEM=azwan
+20187	azwacatvAriMSat	azwa--catvAriMSat	LEXID=card,STEM=azwacatvAriMSat
+20199	azwanavati	azwa--navati	LEXID=card,STEM=azwanavati
+20203	azwapaYcASat	azwa--paYcASat	LEXID=card,STEM=azwapaYcASat
+20244	azwazazwi	azwa--zazwi	LEXID=card,STEM=azwazazwi
+20246	azwasaptati	azwa--saptati	LEXID=card,STEM=azwasaptati
+20260	azwAcatvAriMSat	azwA/--catvAriMSat	LEXID=card,STEM=azwAcatvAriMSat
+20264	azwAtriMSat	azwA--triMSat	LEXID=card,STEM=azwAtriMSat
+20269	azwAdaSan	azwA/--daSan	LEXID=card,STEM=azwAdaSan
+20274	azwAnavati	azwA--navati	LEXID=card,STEM=azwAnavati
+20276	azwApaYcASat	azwA--paYcASat	LEXID=card,STEM=azwApaYcASat
+20289	azwApruz	azwA--pruz	LEXID=card,STEM=azwAviMSati
+20301	azwAzazwi	azwA--zazwi	LEXID=card,STEM=azwAzazwi
+20302	azwAsaptati	azwA--saptati	LEXID=card,STEM=azwAsaptati
+20317	azwASIti	azwA<srs/>SIti	LEXID=card,STEM=azwASIti
+21493.1	asma	asma	LEXID=pron,STEM=asmad
+21497	asmat	asmat	LEXID=pron,STEM=asmad
+21500	asmad	asmad	LEXID=pron,STEM=asmad
+21500.1	asmad	asmad	LEXID=pron,STEM=asmad
+21659	aham	aha/m	LEXID=pron,STEM=asmad
+23917	AdityacandrO	Aditya/--candrO	INFLECTID=m1d,STEM=Adityacandra
+26943	Ava	Ava/	LEXID=pron,STEM=asmad
+26943.1	Ava	Ava/	LEXID=pron,STEM=asmad
+26943.2	Ava	Ava/	LEXID=pron,STEM=asmad
+26943.3	Ava	Ava/	LEXID=pron,STEM=asmad
+28537	i	i	LEXID=pron,STEM=idam
+28714	itara	i/-tara	LEXID=pron,STEM=itara
+28801	idam	ida/m	LEXID=pron,STEM=idam
+30980	utkzepO	ut-kzepO	INFLECTID=m1d,STEM=utkzepa
+31140	uttara	u/ttara	LEXID=pron,STEM=uttara
+35046	upapakzO	upa-pakzO/	INFLECTID=m1d,STEM=upapakza
+37052	uBa	uBa/	LEXID=pron,STEM=uBa
+37053	uBaya	uBa/ya	LEXID=pron,STEM=uBaya
+39168	eka	e/ka	LEXID=pron,STEM=eka
+39218	ekacatvAriMSat	e/ka--catvAriMSat	LEXID=card,STEM=ekacatvAriMSat
+39337	ekadehO	e/ka--dehO	INFLECTID=m1d,STEM=ekadeha
+39362	ekanavati	e/ka--navati	LEXID=card,STEM=ekanavati
+39384	ekapaYcASat	e/ka--paYcASat	LEXID=card,STEM=ekapaYcASat
+39594	ekaviMSat	e/ka--viMSat	LEXID=card,STEM=ekaviMSati
+39595	ekaviMSati	e/ka--viMSati	LEXID=card,STEM=ekaviMSati
+39686	ekazazwi	e/ka--zazwi	LEXID=card,STEM=ekazazwi
+39692	ekasaptati	e/ka--saptati	LEXID=card,STEM=ekasaptati
+39766	ekANgO	ekA<srs/>NgO	INFLECTID=m1d,STEM=ekANga
+39786	ekAdaSa	ekAdaSa/	LEXID=card,STEM=ekAdaSan
+39787	ekAdaSa	e/kAdaSa	LEXID=card,STEM=ekAdaSan
+39792	ekAdaSan	e/kAdaSan	LEXID=card,STEM=ekAdaSan
+39894	ekASIti	ekA<srs/>SIti	LEXID=card,STEM=ekASIti
+39922	ekEka	e/kE<srs1/>ka	LEXID=pron,STEM=ekEka
+39942.1	ekonaviMSati	eko<srs/>na----viMSati/	LEXID=card,STEM=ekonaviMSati
+40041	etad	eta/d	LEXID=pron,STEM=etad
+40062	etat	etat	LEXID=pron,STEM=etad
+40073	etan	etan	LEXID=pron,STEM=etad
+40112	ena	ena	LEXID=pron,STEM=idam,etad
+40250	eza	eza/	LEXID=pron,STEM=etad
+41257	OlUKalO	OlUKalO/	INFLECTID=m1d,STEM=OlUKala
+41336	ka	ka/	LEXID=pron,STEM=kim
+42646	katama	katama/	LEXID=pron,STEM=katama
+42653	katara	katara/	LEXID=pron,STEM=katara
+46068	kalkuzI	kalkuzI/	INFLECTID=f/n1d,STEM=kalkuzi
+47217	kAkutsTO	kAkutsTO	INFLECTID=m1d,STEM=kAkutsTa
+48748	kArtakOjapO	kArta-kOjapO	INFLECTID=m1d,STEM=kArtakOjapa
+50296	kiM	kiM	LEXID=pron,STEM=kim
+50338	kiM	kiM	LEXID=pron,STEM=kim
+50603	kilAtAkulI	kilAtA<srs/>kulI/	INFLECTID=m1d,STEM=kilAtAkuli
+53471	kuSIlavO	kuSIlavO	INFLECTID=m1d,STEM=kuSIlava
+54760	kfcCrAtikfcCrO	kfcCrA<srs/>tikfcCrO	INFLECTID=m1d,STEM=kfcCrAtikfcCra
+55179	kfzRO	kfzRO/	INFLECTID=m1d,STEM=kfzRa
+56461	kowi	kowi	LEXID=card,STEM=kowi
+57709	kratUdakzO	kra/tU-da/kzO	INFLECTID=m1d,STEM=kratUdakza
+58224	kruYcO	kru/YcO	INFLECTID=m1d,STEM=kruYca
+61568	Karva	Karva/	LEXID=card,STEM=Karva
+62267	gaNgAyamune	ga/NgA--yamune	INFLECTID=f1d,STEM=gaNgAyamunA
+65661	guRavfdDI	guRa/--vfdDI	INFLECTID=f1d,STEM=guRavfdDi
+71074	catasf	ca/tasf	LEXID=card,STEM=catur
+71103	catuHzazwi	catuH--zazwi	LEXID=card,STEM=catuHzazwi
+71117	catuHsaptati	catuH--saptati	LEXID=card,STEM=catuHsaptati
+71131	catur	catur	LEXID=card,STEM=catur
+71156	caturaSIti	catur--aSIti	LEXID=card,STEM=caturaSIti
+71221	caturdaSan	catur--daSan	LEXID=card,STEM=caturdaSan
+71240	caturnavati	catur--navati	LEXID=card,STEM=caturnavati
+71305	caturviMSat	catur--viMSat	LEXID=card,STEM=caturviMSati
+71306	caturviMSati	ca/tur--viMSati	LEXID=card,STEM=caturviMSati
+71385	catuScatvAriMSat	catuS--catvAriMSat	LEXID=card,STEM=catuScatvAriMSat
+71465	catustriMSat	catus--triMSat	LEXID=card,STEM=catustriMSat
+71478	catvAriMSat	catvAriMSa/t	LEXID=card,STEM=catvAriMSat
+71484	catvAriMSati	catvAriMSati	LEXID=card,STEM=catvAriMSat
+77261	jampatI	jam-patI	INFLECTID=m1d,STEM=jampati
+78977	jAyampatI	jAyam-patI	INFLECTID=m1d,STEM=jAyampati
+78985	jAyApatI	jAyA/--patI/	INFLECTID=m1d,STEM=jAyApati
+81546	ta	ta/	LEXID=pron,STEM=tad
+81547	tatama	ta/--tama	LEXID=pron,STEM=tatama
+81550	tatara	ta/--tara	LEXID=pron,STEM=tatara
+81811	tat	tat	LEXID=pron,STEM=tad
+81964	tac	tac	LEXID=pron,STEM=tad
+82046	tad	ta/d	LEXID=pron,STEM=tad
+82186	tan	tan	LEXID=pron,STEM=tad
+87399	tyad	tya/d	LEXID=pron,STEM=tyad
+87410	tra	tra	LEXID=card,STEM=tri
+87459	trayaHpaYcASat	trayaH--paYcASat	LEXID=card,STEM=trayaHpaYcASat
+87460	trayaHzazwi	trayaH--zazwi	LEXID=card,STEM=trayaHzazwi
+87462	trayaHsaptati	trayaH--saptati	LEXID=card,STEM=trayaHsaptati
+87465	trayaScatvAriMSat	trayaS--catvAriMSat	LEXID=card,STEM=trayaScatvAriMSat
+87476	trayastriMSat	tra/yas--triMSat	LEXID=card,STEM=trayastriMSat
+87477	trayastriMSati	tra/yas--triMSati	LEXID=card,STEM=trayastriMSat
+87491	trayodaSa	tra/yo--daSa	LEXID=card,STEM=trayodaSan
+87496	trayonavati	trayo--navati	LEXID=card,STEM=trayonavati
+87501	trayoviMSati	tra/yo--viMSati	LEXID=card,STEM=trayoviMSati
+87572	tri	tri/	LEXID=card,STEM=tri
+87690	tricatvAriMSat	tri/--catvAriMSat	LEXID=card,STEM=tricatvAriMSat
+87845	trinavati	tri/--navati	LEXID=card,STEM=trinavati
+87873	tripaYcASat	tri/--paYcASat	LEXID=card,STEM=tripaYcASat
+88426	trizazwi	tri/--zazwi	LEXID=card,STEM=trizazwi
+88459	trisaptati	tri/--saptati	LEXID=card,STEM=trisaptati
+88531	triMSat	triMSa/t	LEXID=card,STEM=triMSat
+88537	triMSati	triMSati	LEXID=card,STEM=triMSat
+88874	tryaSIti	try--aSIti	LEXID=card,STEM=tryaSIti
+88921	tva	tva	LEXID=pron,STEM=tva
+88926	tva	tva/	LEXID=pron,STEM=yuzmad
+88928	tva	tva/	LEXID=pron,STEM=yuzmad
+89389	dakziRa	da/kziRa	LEXID=pron,STEM=dakziRa
+90809	daSa	daSa	LEXID=card,STEM=daSan
+91063	daSan	daSan	LEXID=card,STEM=daSan
+92266	divaspfTivyO	di<sr/>vas-pfTivyO	INFLECTID=f1d,STEM=divaspfTivI
+97356	dyAvAkzame	dyA/vA--kzame	INFLECTID=f1d,STEM=dyAvAkzamA
+97359	dyAvABUmI	dyA/vA--BUmI	INFLECTID=f1d,STEM=dyAvABUmi
+97383	dyoBUmI	dyo--BUmI	INFLECTID=f1d,STEM=dyoBUmi
+98101	dva	dva	LEXID=card,STEM=dvi
+98158	dvAcatvAriMSat	dvA--catvAriM<sr1/>Sat	LEXID=card,STEM=dvAcatvAriMSat
+98158.1	dvAcatvAriMSati	dvA--catvAriM<sr1/>Sati	LEXID=card,STEM=dvAcatvAriMSat
+98162	dvAtriMSat	dvA/--triMSat	LEXID=card,STEM=dvAtriMSat
+98170	dvAnavati	dvA--nava<sr1/>ti	LEXID=card,STEM=dvAnavati
+98173	dvApaYcASat	dvA--paYcASat	LEXID=card,STEM=dvApaYcASat
+98184	dvAviMSati	dvA--viMSati	LEXID=card,STEM=dvAviMSati
+98193	dvAzazwi	dvA--zazwi	LEXID=card,STEM=dvAzazwi
+98196	dvAsaptati	dvA/--saptati	LEXID=card,STEM=dvAsaptati
+98210	dvAdaSan	dvA/-daSan	LEXID=card,STEM=dvAdaSan
+98211	dvAdaSa	dvA/-daSa	LEXID=card,STEM=dvAdaSan
+98396	dvi	dvi	LEXID=pron,STEM=dvi
+98433	dvicatvAriMSat	dvi--catvAriMSat	LEXID=card,STEM=dvicatvAriMSat
+98504	dvinavati	dvi--navati	LEXID=card,STEM=dvinavati
+98530	dvipaYcASat	dvi--paYcASat	LEXID=card,STEM=dvipaYcASat
+98733	dvizazwi	dvi--zazwi	LEXID=card,STEM=dvizazwi
+98748	dvisaptati	dvi--saptati	LEXID=card,STEM=dvisaptati
+99179	dvyaSIti	dvy--aSIti	LEXID=card,STEM=dvyaSIti
+104631	navacatvAriMSat	na/va--catvAriM<sr1/>Sat	LEXID=card,STEM=navacatvAriMSat
+104650	navanavati	na/va--navati	LEXID=card,STEM=navanavati
+104653	navapaYcASat	na/va--paYcA<sr1/>Sat	LEXID=card,STEM=navapaYcASat
+104694	navazazwi	na/va--zazwi	LEXID=card,STEM=navazazwi
+104698	navasaptati	na/va--saptati	LEXID=card,STEM=navasaptati
+104721	navASIti	navA<srs/>SIti	LEXID=card,STEM=navASIti
+104731	navati	navati/	LEXID=card,STEM=navati
+104741	navan	navan	LEXID=card,STEM=navan
+108010	niKarva	ni-Karva	LEXID=card,STEM=niKarva
+112215	nema	n/<srs/>ema	LEXID=pron,STEM=nema
+112217	nema	ne/<srs/>ma	LEXID=pron,STEM=nema
+112287	nezwApotArO	nezwA--potArO	INFLECTID=m1d,STEM=nezwApotf
+112288	nezwodgAtArO	nezwo<srs/>dgAtArO	INFLECTID=m1d,STEM=nezwodgAtf
+112617	nO	nO	LEXID=pron,STEM=asmad
+113536	paYca	paYca	LEXID=card,STEM=paYcan
+113609	paYcacatvAriMSat	paYca--catvAriMSat	LEXID=card,STEM=paYcacatvAriMSat
+113657	paYcatriMSati	paYca--triMSati	LEXID=card,STEM=NONE
+113672	paYcadaSa	paYca--daSa	LEXID=card,STEM=paYcadaSan
+113673	paYcadaSan	paYca--daSan	LEXID=card,STEM=paYcadaSan
+113705	paYcanavati	paYca--navati	LEXID=card,STEM=paYcanavati
+113723	paYcapaYcASat	paYca--paYcASat	LEXID=card,STEM=paYcapaYcASat
+113918	paYcaviMSat	paYca--viMSat	LEXID=card,STEM=paYcaviMSati
+113919	paYcaviMSati	pa/Yca--viMSati	LEXID=card,STEM=paYcaviMSati
+113971	paYcazazwi	paYca--zazwi	LEXID=card,STEM=paYcazazwi
+113979	paYcasaptati	paYca--saptati	LEXID=card,STEM=paYcasaptati
+114102	paYcASIti	paYcA<srs/>SIti	LEXID=card,STEM=paYcASIti
+114155	paYcan	pa/Ycan	LEXID=card,STEM=paYcan
+114203	paYcASat	paYcASa/t	LEXID=card,STEM=paYcASat
+114210	paYcASati	paYcASa<sr/>ti	LEXID=card,STEM=paYcASat
+116005	para	pa/ra	LEXID=pron,STEM=para
+127816	pUrva	pU/rva	LEXID=pron,STEM=pUrva
+136264.1	prayuta	pra-<sr/>yu/ta	LEXID=card,STEM=prayuta
+149107	Bavat	Ba/vat	LEXID=pron,STEM=Bavat
+149114	Bavad	Bavad	LEXID=pron,STEM=Bavat
+149128	Bavan	Bavan	LEXID=pron,STEM=Bavat
+153874.1	ma	ma	LEXID=pron,STEM=asmad
+153874.2	ma	ma	LEXID=pron,STEM=asmad
+153874.3	ma	ma	LEXID=pron,STEM=asmad
+155043	mat	ma/t	LEXID=pron,STEM=asmad
+155241	mad	mad	LEXID=pron,STEM=asmad
+155261	mat	mat	LEXID=pron,STEM=asmad
+155285	man	man	LEXID=pron,STEM=asmad
+160663	mahArbuda	mahA/<srs/><sr1/>rbuda	LEXID=card,STEM=mahArbuda
+162348	mAtarapitarO	mAtara-pitarO	INFLECTID=m1d,STEM=mAtarapitf
+168977	yatama	ya--tama/	LEXID=pron,STEM=yatama
+168979	yatara	ya--tara/	LEXID=pron,STEM=yatara
+170148	yad	ya/d	LEXID=pron,STEM=yad
+170186	yac	yac	LEXID=pron,STEM=yad
+170190	yat	yat	LEXID=pron,STEM=yad
+170208	yan	yan	LEXID=pron,STEM=yad
+172148	yuva	yuva/	LEXID=pron,STEM=yuzmad
+172212	yuzmat	yuzmat	LEXID=pron,STEM=yuzmad
+172214	yuzmad	yuzmad	LEXID=pron,STEM=yuzmad
+172222	yuzmA	yuzmA	LEXID=pron,STEM=yuzmad
+177135	rAtryahanI	rAtry--ahanI	INFLECTID=n1d,STEM=rAtryahan
+180336	lakza	lakza/	LEXID=card,STEM=lakza
+181567	lambAviSvavayasO	lambA--viSvavayasO	INFLECTID=m1d,STEM=lambAviSvavayas
+186470	vayam	vaya/m	LEXID=pron,STEM=asmad
+188559	vas	vas	LEXID=pron,STEM=yuzmad
+190968	vAm	vAm	LEXID=pron,STEM=yuzmad
+193740	viMSati	viMSati/	LEXID=card,STEM=viMSati
+193774	viMSat	viMSat	LEXID=card,STEM=viMSati
+200987	viSva	vi/Sva	LEXID=pron,STEM=viSva
+211813	Sata	Sata/	LEXID=card,STEM=Sata
+219008	SukrAmanTinO	SukrA/-manTi/nO	INFLECTID=m1d,STEM=SukrAmanTin
+224940	zaz	za/z	LEXID=card,STEM=zaz
+224978	zawcatvAriMSat	zaw--catvAriMSat	LEXID=card,STEM=zawcatvAriMSat
+224997	zawtriMSat	za/w--triMSat	LEXID=card,STEM=zawtriMSat
+224998	zawtriMSati	zaw--triMSati	LEXID=card,STEM=zawtriMSat
+225007	zawpaYcASat	za/w--paYcASat	LEXID=card,STEM=zawpaYcASat
+225040	zawzazwi	zaw--zazwi	LEXID=card,STEM=zawzazwi
+225045	zawsaptati	zaw--saptati	LEXID=card,STEM=zawsaptati
+225111	zaqaSIti	zaq--aSIti	LEXID=card,STEM=zaqaSIti
+225251	zaqviMSat	zaq--viMSat	LEXID=card,STEM=zaqviMSati
+225252	zaqviMSati	za/q--viMSati	LEXID=card,STEM=zaqviMSati
+225269	zaRRavati	za/R-Ravati	LEXID=card,STEM=zaRRavati
+225301	zazwi	zazwi/	LEXID=card,STEM=zazwi
+225419	zoqaSa	zoqaSa	LEXID=card,STEM=zoqaSan
+225484	zoqaSan	zo/-qaSan	LEXID=card,STEM=zoqaSan
+225593	sa	sa/	LEXID=pron,STEM=tad
+225624	saMyatI	saM-yatI	INFLECTID=n1d,STEM=saMyat
+232431	saptan	sapta/n	LEXID=card,STEM=saptan
+232432	sapta	sapta	LEXID=card,STEM=saptan
+232458	saptacatvAriMSat	sapta--catvAriMSat	LEXID=card,STEM=saptacatvAriMSat
+232476	saptatriMSat	sapta--triMSat	LEXID=card,STEM=saptatriMSat
+232478	saptatriMSati	sapta--triMSati	LEXID=card,STEM=saptatriMSat
+232484	saptadaSa	sapta--daSa/	LEXID=card,STEM=saptadaSan
+232494	saptadaSan	sapta/--daSan	LEXID=card,STEM=saptadaSan
+232511	saptanavati	sapta--navati	LEXID=card,STEM=saptanavati
+232519	saptapaYcASat	sapta--paYcASat	LEXID=card,STEM=saptapaYcASat
+232615	saptaviMSat	sapta--viMSat	LEXID=card,STEM=saptaviMSati
+232616	saptaviMSati	sapta/--viMSati	LEXID=card,STEM=saptaviMSati
+232654	saptazazwi	sapta--zazwi	LEXID=card,STEM=saptazazwi
+232724	saptASIti	saptA<srs/>SIti	LEXID=card,STEM=saptASIti
+232753	saptati	saptati/	LEXID=card,STEM=saptati
+232988	sama	sama	LEXID=pron,STEM=sama
+238107	sarva	sa/rva	LEXID=pron,STEM=sarva
+240499	sahasra	saha/sra	LEXID=card,STEM=sahasra
+243121	sArisTAKA	sArisTA-KA~	LOAN
+244936	sima	sima/	LEXID=pron,STEM=sima
+245092	sItormile	sIto<srs/>rmile	INFLECTID=f1d,STEM=sItormilA
+251719	sUryAgnI	sUryA<srs/>gnI/	INFLECTID=m1d,STEM=sUryAgni
+251720	sUryAcandramasA	sUryA-candrama/sA	INFLECTID=m1d,STEM=sUryAcandramas
+251721	sUryAcandramasO	sUryA-candrama/<sr/>sO	INFLECTID=m1d,STEM=sUryAcandramas
+251742	sUryAmAsA	sU/ryA-mA/sA	INFLECTID=m1d,STEM=sUryAmAs
+252350	sevyasevakO	sevya--sevakO	INFLECTID=m1d,STEM=sevyasevaka
+257773	sva	sva/	LEXID=pron,STEM=sva
+264497	hotADvaryU	hotA<srs/>DvaryU	INFLECTID=m1d,STEM=hotADvaryu
+264498	hotApotArO	hotA-potArO	INFLECTID=m1d,STEM=hotApotf
