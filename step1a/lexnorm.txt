@@ -22183,7 +22183,7 @@
 28694	iqA	f
 28694.66	iqAnta	m:f:n
 28694.67	iqAprASitra	n
-28694.69	iqepahavana	n
+28694.69	iqopahavana	n
 28696	iqAcamasa	m
 28697	iqAjAta	m
 28698	iqAdaDa	n
@@ -27076,7 +27076,7 @@
 36542	upA	ind
 36543	upAMSu	ind
 36543.2	upAMSu	m
-36544	upAMSukFqita	m
+36544	upAMSukrIqita	m
 36545	upAMSugraha	m
 36545.1	upAMSuGAtaka	m
 36546	upAMSutA	f
@@ -30324,7 +30324,7 @@
 40748	ozaDivanaspati	n
 40749	ozaDivanaspati	m
 40749.1	ozaDivallaBa	m
-40749.2	ozaDihomna	m
+40749.2	ozaDihoma	m
 40749.3	ozaDItvara	m
 4075	ozaDISa	m
 40751	ozaDyanuvAka	m
@@ -47596,7 +47596,7 @@
 64825	gAnDArikA	f
 64826	gAnDAri	m
 64827	gAnDAri	m
-64827.1	gAnDArivlARija	m
+64827.1	gAnDArivARija	m
 64828	gAnDArisaptasama	m
 64829	gAnDAreya	m
 6483	gAnDika	m
@@ -50883,7 +50883,7 @@
 69481	Ganatola	m
 69482	Ganatva	n
 69483	Ganatvac	m
-69483.1	GanadundBisvana	m:f:n
+69483.1	GanadunduBisvana	m:f:n
 69484	Ganadruma	m
 69485	GanaDAtu	m
 69486	GanaDvani	m:f:n
@@ -52382,7 +52382,7 @@
 71454	catuzwaya	f#A:n
 71455	catuzwaya	n
 71458	catus	ind
-71459.1	catuscatvAriMSadakzara	m:f:n
+71459.1	catuzcatvAriMSadakzara	m:f:n
 7146	catustAla	m
 71461	catustriMSa	m:f#I:n
 71464	catustriMSa	m
@@ -54536,7 +54536,7 @@
 74444	cInAcAraprayogaviDi	m
 74445	cInaka	m
 7445	cInAka	m
-74451	cIpUdru	m
+74451	cIpudru	m
 74455	cIra	n
 74462	cIra	m
 74463	cIrA	f
@@ -55047,7 +55047,7 @@
 75214	cOrAwavI	f
 75215	cOrApahfta	m:f:n
 75216	cOrodDaraRa	n
-75217	cOrodDraRika	m
+75217	cOrodDaraRika	m
 75218	cOrodDartf	m
 75219	cOraka	m
 7522	cOrikA	f
@@ -57756,7 +57756,7 @@
 79092	jAlasarasa	n
 79093	jAlahAsinI	f
 79095	jAlANgulika	m:f:n
-79095.1	jAlAbadDANgulipARipAdatalstA	f
+79095.1	jAlAbadDANgulipARipAdatalatA	f
 79097	jAlAvanadDa	m:f:n
 79097.1	jAlopajIvin	m
 79098	jAlaka	n
@@ -59168,7 +59168,7 @@
 81107	JiYJirizwA	f
 81108	JiYJirIwA	f
 81109	JiYJI	f
-81109.1	JiRkA	f
+81109.1	JiRikA	f
 8111	JiRwi	f
 81111	JiRwikA	f
 81112	JiRwI	f
@@ -59310,7 +59310,7 @@
 81318	WAtkAra	m
 8132	WiRWA	f
 81322	WiRWAkarAla	m
-81322.1	WunWupadDati	f
+81322.1	WuRWupadDati	f
 81323	Wetkfta	n
 81323.1	Wepaka	m
 81323.2	Wevaka	m
@@ -59451,7 +59451,6 @@
 81522	QollarI	f
 81524	QOkana	n
 81526	QOkita	m:f:n
-81526.1	QlI	f
 81528	RakAra	m
 81529	Ra	m
 81538	Rya	m
@@ -72537,7 +72536,7 @@
 9843	dvicaturaSraka	m
 98431	dvicatvAri	n
 98432	dvicatvAriMSa	m:f#I:n
-98435	dvicAtvArinSika	m:f:n
+98435	dvicAtvAriMSika	m:f:n
 98436	dvicandra	m:f:n
 98437	dvicaraRa	m:f:n
 98438	dvicAtvAriMSika	m:f:n
@@ -81909,7 +81908,7 @@
 11027	nivAvarI	f
 110271	nivASa	m:f:n
 110274	nivid	f
-110276	nividCaMSam	ind
+110276	nivicCaMSam	ind
 110277	nividaDyAya	m
 110278	nividDAna	m:f:n
 110279	nividDAna	n
@@ -84589,8 +84588,8 @@
 11365	paYcatiktaGfta	n
 113651	paYcatIrTI	f
 113654	paYcatriMSa	m:f#I:n
-113656.1	paYcatrinSacClokI	f
-113656.2	paYcatrinSatpIWikA	f
+113656.1	paYcatriMSacClokI	f
+113656.2	paYcatriMSatpIWikA	f
 113658	paYcatriMSika	m:f:n
 113659	paYcatrika	m:f:n
 11366	paYcatva	n
@@ -84984,7 +84983,7 @@
 114027.2	paYcAkzarIzawprayoga	m
 114027.3	paYcAkzarIstotra	n
 114028	paYcAKyAna	n
-114029	paYcAKyAnavarttika	n
+114029	paYcAKyAnavArttika	n
 11403	paYcAgni	n
 114030.1	paYcAgni	m:f:n
 114030.2	paYcAgni	m:f:n
@@ -87552,7 +87551,7 @@
 117211	pariga	m:f:n
 117211.1	parigaDitA	f
 117212	parigata	m:f:n
-11722	parigatArWa	m:f:n
+11722	parigatArTa	m:f:n
 117221	parigantavya	m:f:n
 117222	parigama	m
 117226	parigamana	n
@@ -89948,7 +89947,7 @@
 120813	pAtratA	f
 120815	pAtratva	n
 120816	pAtraDAraRa	n
-120817	pAtranirnega	m
+120817	pAtranirRega	m
 120818	pAtraparIzwi	f
 12082	pAtrapARi	m
 120821	pAtrapAla	m
@@ -90711,7 +90710,7 @@
 121805	pAtaYjalatantra	n
 121806	pAtaYjaladarSana	n
 121807	pAtaYjalaBAzya	n
-121807.1	pAtaYjalaBAzyavarttika	n
+121807.1	pAtaYjalaBAzyavArttika	n
 121808	pAtaYjalarahasya	n
 121809	pAtaYjalasUtraBAzyavyaKyA	f
 12181	pAtaYjalasUtravfttiBAzyacCAyAvyAKyA	f
@@ -91440,7 +91439,7 @@
 12265	pArAvatapadI	f
 122652	pArAvatasavarRa	m
 122653	pArAvatasavarRASva	m
-122654	pArAvatAKza	m
+122654	pArAvatAkza	m
 122655	pArAvatANGripicCa	m
 122656	pArAvatABa	m:f:n
 122657	pArAvatASva	m
@@ -91607,7 +91606,7 @@
 122839	pArucCepa	n
 12284	pArucCepi	m
 122841	pAruzaka	m:n
-122842	pAruskika	m:f:n
+122842	pAruzika	m:f:n
 122843	pAruzeya	m:f#I:n
 122844	pAruzRa	m
 122845	pAruzya	n
@@ -93713,7 +93712,7 @@
 125603	putraka	m:f#ikA
 125614	putrakA	f
 125615	putrikA	f
-125619	putrikApuntra	m
+125619	putrikAputra	m
 12562	putrikApUrvaputra	m
 125621	putrikAprasU	f
 125622	putrikABartf	m
@@ -94214,7 +94213,7 @@
 126178	purAvatI	f
 126179	purAsuhfd	m
 12618	purotsava	m
-126181	pugrodBava	m:f#A
+126181	purodBava	m:f#A
 126182	purodyAna	n
 126183	puroka	m
 126184	purOkas	m
@@ -96028,8 +96027,7 @@
 128463	pfTivimUla	m
 128464	pfTiviloka	m
 128465	pfTivizad	m:f:n
-128466	pfTivizadzWa	m:f:n
-128466.1	pfTivizadzWA	m:f:n
+128466	pfTivizWa	m:f:n
 128467	pfTivisad	m:f:n
 128468	pfTivI	f
 128472	pfTivyAvrata	n
@@ -107054,7 +107052,7 @@
 144071	bahvAdin	m:f:n
 144072	bahvASin	m:f:n
 144073	bahvASin	m
-144073.1	bahvAsintva	n
+144073.1	bahvASintva	n
 144074	bahvAScarya	m:f:n
 144075	bahvAScaryamaya	m:f#I:n
 144076	bahvASrayA	f
@@ -119445,7 +119443,7 @@
 159872	mahAnABa	m
 159874	mahAnAman	m
 159875	mahAnAmnI	f
-159877	mahAnAmRIvrata	n
+159877	mahAnAmnIvrata	n
 159878	mahAnAmnika	m:f:n
 15988	mahAnAyaka	m
 159882	mahAnArAyaRa	m
@@ -120417,7 +120415,7 @@
 160954	mahASivarAtrinirRaya	m
 160954.1	mahASivarAtrivrata	n
 160954.2	mahASivarAtrivratanirRaya	m
-160954.3	mahASivaratryudyApana	n
+160954.3	mahASivarAtryudyApana	n
 160955	mahASItavatI	f
 160957	mahASItA	f
 160958	mahASIrza	m
@@ -121718,7 +121716,7 @@
 162596	mADavezwA	f
 162598	mADavocita	n
 162599	mADavodBava	m
-1626	mAdbavollAsa	m
+1626	mADavollAsa	m
 162601	mADavozita	n
 162602	mADavaka	m
 162603	mADavikA	f
@@ -123251,8 +123249,8 @@
 164586.1	mI|a	n
 164587	mIQu	m
 164588	mI|u	m
-164591	mIQuztama	m:f:n
-164591.1	mIQuztama	m
+164591	mIQuzwama	m:f:n
+164591.1	mIQuzwama	m
 164592	mIQuzmat	m:f:n
 164593	mIQuza	m
 164594	mIQvas	m:f#uzI:n
@@ -130954,7 +130952,7 @@
 174358	ratnamaYjarIguRaleSamAtrasUcakAzwaka	n
 174358.1	ratnamaYjarIguRaleSasUcakadaSaka	n
 174359	ratnamati	m
-174360.1	ratnamanjarI	f
+174360.1	ratnamaYjarI	f
 174361	ratnamaya	m:f#I:n
 174362	ratnamAlA	f:f#A
 174365	ratnamAlAvatI	f
@@ -131132,7 +131130,7 @@
 174555	raTadru	m
 174556	raTadruma	m
 174557	raTaDur	f
-174558	raTaDurDUrgata	m:f:n
+174558	raTaDUrgata	m:f:n
 174559	raTaDurya	m
 17456	raTaDuryatA	f
 174561	raTanABi	f
@@ -136689,7 +136687,7 @@
 181937	lavaRasTAna	n
 181938	lavaRAkara	m
 18194	lavaRAcala	m
-181941	lavaRAnbataka	m
+181941	lavaRAntaka	m
 181942	lavaRApaRa	m
 181943	lavaRAbDi	m
 181944	lavaRAbDija	n
@@ -139323,7 +139321,7 @@
 18558	vaDa	m
 185592	vaDA	f
 185593	vaDakarmADikArin	m
-185594	vaDakAnkzin	m:f#iRI:n
+185594	vaDakANkzin	m:f#iRI:n
 185595	vaDakAma	m:f:n
 185596	vaDakAmyA	f
 185597	vaDakzama	m:f:n
@@ -140719,7 +140717,7 @@
 187448	varRodaya	m
 187449	varRodDfti	f
 18745	varRopanizad	f
-187451	varnopeta	m:f:n
+187451	varRopeta	m:f:n
 187452	varRaka	m:f#ikA:n
 187453	varRaka	m
 187457	varRaka	m:n
@@ -141019,7 +141017,7 @@
 187919	varzamedas	m:f:n
 187922	varzartu	m
 187922.1	varzartumAsapakzAhovelAdeSapradeSavat	m:f:n
-187922.2	varzartuvarRnana	n
+187922.2	varzartuvarRana	n
 187923	varzalamBaka	m
 187924	varzavat	ind
 187925	varzavara	m
@@ -148937,7 +148935,7 @@
 199141	viratASaya	m:f:n
 199142	virati	f
 199145	virama	m
-199148	viramamRa	n
+199148	viramaRa	n
 19915	viramita	m:f:n
 199151	virAma	m
 199159	virAmatA	f
@@ -149567,7 +149565,7 @@
 20008	vivAhahomaviDi	m
 200080.1	vivAhahomopayuktAmantra	m
 200081	vivAhAgni	m
-200082	vivAhAdikArmaRAmprayoga	m
+200082	vivAhAdikarmaRAmprayoga	m
 200083	vivAhArTa	m
 200084	vivAhecCu	m:f:n
 200085	vivAhotsava	m
@@ -154714,7 +154712,7 @@
 206921	vEtAlin	m
 206922	vEtAlI	f
 206923	vEtAlikarRi	m
-206923.1	vEtAlikarRikaRTa	n
+206923.1	vEtAlikarRikanTa	n
 206924	vEtula	m
 206924.1	vEtulakanTa	n
 206925	vEtuzika	m
@@ -155701,7 +155699,7 @@
 208194	vOzaw	ind
 208196	vyaMSa	m
 208197	vyaMSaka	m
-208198	vyanSuka	m:f:n
+208198	vyaMSuka	m:f:n
 208199	vyaMsa	m:f:n
 2082	vyaMsa	m
 208202	vyakza	m
@@ -156424,8 +156422,8 @@
 209403	vyAsIya	n
 209407	vyAkIrRa	m:f:n
 209408	vyAkIrRa	n
-209409	vyAkIrnakeSara	m:f:n
-20941	vyAkIrnamAlyakavara	m:f:n
+209409	vyAkIrRakeSara	m:f:n
+20941	vyAkIrRamAlyakavara	m:f:n
 209411	vyAkIrRArcis	m:f:n
 209412	vyAkuYcita	m:f:n
 209413	vyAkula	m:f#A:n
@@ -157270,8 +157268,8 @@
 210609	vratapAraRA	f
 21061	vratapustaka	m
 210611	vrataprakASa	m
-210612	vratapratIzWA	f
-210613	vratapratIzWAprayoga	m
+210612	vratapratizWA	f
+210613	vratapratizWAprayoga	m
 210614	vrataprada	m:f:n
 210615	vratapradAna	n
 210617	vratabanDapadDati	f
@@ -158063,7 +158061,7 @@
 211716	SacInandana	m
 211717	SacInara	m
 211718	SacIpati	m
-211718.11	SacIpuraRdara	m
+211718.11	SacIpuraMdara	m
 211719	SacIbala	m
 21172	SacIramaRa	m
 211721	SacIvat	m:f:n
@@ -159087,7 +159085,7 @@
 212926	Sama	m:f:n
 212927	Samakft	m:f:n
 212928	Samagir	f
-212929	SamanIcameDra	m
+212929	SamanIcameQra	m
 21293	Samapara	m:f:n
 212931	SamapraDAna	m:f:n
 212932	SamaprApta	m:f:n
@@ -170603,7 +170601,7 @@
 228561	saMgfBIta	m:f:n
 228562	saMgfBItf	m:f:n
 228564	saMgara	m
-228568	saMgarakskama	m:f:n
+228568	saMgarakzama	m:f:n
 228569	saMgarasTa	m:f:n
 22857	saMgaraRa	n
 228571	saMgir	f
@@ -177496,7 +177494,7 @@
 238366	sarvadfS	f
 238367	sarvadeva	m
 238368	sarvadevatApuzpAdipUjana	n
-238368.1	sarvadevatApratisTWAsArasaMgraha	m
+238368.1	sarvadevatApratizWAsArasaMgraha	m
 238369	sarvadevatAmaya	m:f#I:n
 23837	sarvadevapUjanaprakAra	m
 238370.1	sarvadevapUjanaprayoga	m
@@ -178360,7 +178358,7 @@
 239233.62	sarvatomuKaprakaraRa	n
 239233.63	sarvatomuKaprayoga	m
 239233.64	sarvatomuKodgatftva	n
-239233.65	sarvatomuKOgAtraprayoga	m
+239233.65	sarvatomuKOdgAtraprayoga	m
 239234	sarvatovilAsa	m
 239235	sarvatovftta	m:f:n
 239236	sarvatra	ind
@@ -179543,8 +179541,8 @@
 240542	sahasracitya	m
 240543	sahasracetas	m:f:n
 240544	sahasrajalaDAra	m
-240545	sahasraYit	m:f:n
-240546	sahasraYit	m
+240545	sahasrajit	m:f:n
+240546	sahasrajit	m
 240551	sahasrajihva	m:f:n
 240552	sahasrajyotis	m
 240553	sahasraRI	m
@@ -181881,7 +181879,7 @@
 243471	sAvitrikA	f
 243472	sAvitrI	f
 243489	sAvitrItIrTa	n
-24349	sAvitrIpeYjara	n
+24349	sAvitrIpaYjara	n
 243491	sAvitrIpatita	m:f:n
 243492	sAvitrIpariRaya	m
 243493	sAvitrIpariBrazwa	m:f:n
@@ -193259,7 +193257,7 @@
 258589	svayamavapanna	m:f#A:n
 25859	svayamAgata	m:f:n
 258591	svayamAtfRRa	m:f#A:n
-258592	svayamAtfnRA	f
+258592	svayamAtfRRA	f
 258593	svayamAtfRRavat	m:f:n
 258594	svayamAnIta	m:f:n
 258595	svayamAsanaQOkana	n
@@ -194660,7 +194658,7 @@
 260381	hatasvasf	m:f:n
 260382	hatahima	m:f:n
 260383	hatahfdaya	n
-260384	hatAGaSansa	m:f:n
+260384	hatAGaSaMsa	m:f:n
 260385	hatADimanTa	m:f:n
 260386	hatAroha	m:f:n
 260387	hatAvaSeza	m
@@ -195381,7 +195379,7 @@
 261294.1	hariharaBawwAcArya	m
 261295	hariharaBAzya	n
 261295.1	hariharaBedaDikkAra	m
-261295.2	hariharamanRqalazoqaSaliNgodBava	m
+261295.2	hariharamaRqalazoqaSaliNgodBava	m
 261296	hariharamahArAja	m
 261297	hariharamAhAtmya	n
 261298	hariharamiSra	m

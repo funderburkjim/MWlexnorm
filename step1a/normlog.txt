@@ -59,9 +59,9 @@ Skipping: 154142	maNga	NO ADJUSTED INFL DATA: <lex type="inh">m. <ab>pl.</ab></l
 Skipping: 213090.1	SaMtAti	NO ADJUSTED INFL DATA: <lex type="inh">f. <ab>pl.</ab></lex>
 Skipping: 231244	saMtAnaka	NO ADJUSTED INFL DATA: <lex type="inh">m. <ab>pl.</ab></lex>
 Skipping: 253869	sOraBeya	NO ADJUSTED INFL DATA: <lex type="inh">m. <ab>pl.</ab></lex>
-198538 records processed from ../step0/lexicalgrammar.xml
+198536 records processed from ../step0/lexicalgrammar.xml
 All normlex records used
-198194 records written to file lexnorm.txt
+198192 records written to file lexnorm.txt
 283 records written to file lexnorm-other.txt
 0 records written to file error.txt
 0 records written to file message.txt
