@@ -58,7 +58,7 @@
 <lex>mf<s>zwrI</s>n</lex>	m:f#zwrI:n
 <lex>mf<s>DA</s></lex>	m:f#DA
 <lex>mf<s>A</s><s>I</s><s>han</s></p>n</lex>	m:f#A:f#I:n
-<lex>mf<s>A</s><s>paliknI</s>n</lex>	m:f#Af#paliknI:n
+<lex>mf<s>A</s><s>paliknI</s>n</lex>	m:f#A:f#paliknI:n
 <lex>mf<s>I</s>n</lex>	m:f#I:n
 <lex>mf<s>I</s><s>utsAdi</s>n</lex>	m:f#I:n
 <lex>mf<s>I</s><s>sa-jitvarI</s>n</lex>	m:f#I:n

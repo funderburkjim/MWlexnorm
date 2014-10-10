@@ -1002,8 +1002,6 @@
 >>> 142082	Palgu	Palgu/	m:f#U:f#u:f#vI:n
      1 m:f#A:f#hariRI:n <lex>mf<s>A</s><s>hariRI</s>n</lex>
 >>> 261398	harita	ha/rita	m:f#A:f#hariRI:n
-     1 m:f#Af#paliknI:n <lex>mf<s>A</s><s>paliknI</s>n</lex>
->>> 120235	palita	palita/	m:f#Af#paliknI:n
      1 m:f#U:f#u:f#vI:n <lex>mf<s>U<shortlong/></s><s>vI</s>n</lex>
 >>> 155768	maDu	ma/Du	m:f#U:f#u:f#vI:n
      1 m:f#apI:f#apyA:n <lex>mf<s>apyA</s><s>apI</s>n</lex>
@@ -1014,6 +1012,8 @@
 >>> 111338	nIcaka	nIcaka	f#akI:f#akA:f#ikA
      1 m:f#makA:f#mikA:n <lex>mf<p>Ved<s>makA</s><s>mikA</s></p>n</lex>
 >>> 16808	alomaka	a-loma/ka	m:f#makA:f#mikA:n
+     1 m:f#A:f#paliknI:n <lex>mf<s>A</s><s>paliknI</s>n</lex>
+>>> 120235	palita	palita/	m:f#A:f#paliknI:n
      1 m:f#ikA:f#enikA:n <lex>mf<s>ikA</s><s>enikA</s>n</lex>
 >>> 40031	etaka	etaka	m:f#ikA:f#enikA:n
      1 m:f#vI:f#us:f#Us:n <lex>mf<s>us</s><s>Us</s><s>vI</s>n</lex>
