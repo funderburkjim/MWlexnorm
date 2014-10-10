@@ -8,6 +8,12 @@ Oct 8, 2014
   accents FOLLOW the vowel (in monier.xml accents PRECEDE the vowel).
   This is for consistency with a change in Scharf's SLP1 protocol.
 
+Oct 10, 2014
+ Provide PHP program 'simplify_lexnorm.php' to simplify the lexnorm output to
+ just contain m,f,n,ind.
+ php simplify_lexnorm.php lexnorm.txt lexnorm1.txt
+--------------------------
+
 The files lexnorm.txt  contains a normalization of the grammatical information 
 present in lexicalgrammar.xml (which is described in file step0/readme.txt of 
 this repository). File lexnorm.txt (and several other files) are created by the 
