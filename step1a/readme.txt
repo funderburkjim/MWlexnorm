@@ -21,7 +21,7 @@ Python program process1a.py (see redo.sh):
 
 python26 process1a.py lexmap.txt ../step0/lexicalgrammar.xml lexnorm.txt lexnorm-other.txt error.txt message.txt > normlog.txt
 
-The grammatical information in lexicalgrammar.xml is in the complicated mardup form as it appears in mw.xml. As a simple example, under headword akAma in
+The grammatical information in lexicalgrammar.xml is in the complicated markup form as it appears in mw.xml. As a simple example, under headword akAma in
 lexicalgrammar.xml, the grammatical information appears as:
 <lex>mf<p><s>A</s></p>n.</lex>
 This is simplified by process1a in two steps.
