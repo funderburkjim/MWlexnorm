@@ -42,7 +42,7 @@ lex_adjust and lex_adjust1 functions of process1a.py.
 
 For those records of lexicalgrammar.xml identifed as pronouns, cardinal numbers,
 loan words, or having an inflection id (see step0/DualPlural.txt), the records 
-are output to lexnorm-other.txt. Here is a sample:
+are output to lexnorm-other.txt (283 entries as per 15/10/2014). Here is a sample:
 5	a	LEXID=pron,STEM=idam
 886	agnAmarutO	INFLECTID=m1d,STEM=agnAmarut
 14953	ayuta	LEXID=card,STEM=ayuta
