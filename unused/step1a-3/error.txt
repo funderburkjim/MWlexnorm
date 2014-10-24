@@ -1,0 +1,39 @@
+kAYcanakzIrI	kAYcana--kzIrI	<lex>f<s>rya</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><s><sr1/>rya</s> mfn.</lex>
+kzipaRi	kzipaR/i	<lex><s>RI</s>f</lex>	<lex type="inh">f.</lex><lex><s><sr1/>RI</s>, f.</lex>
+grAmaRI	gr/Ama--R/I	<lex>m<s>Ri</s>n</lex>	<lex>m.</lex><lex><s><sr1/>Ri</s> n.</lex>
+jayamaNgala	jay/a--maNgala	<lex><s>lA</s>f</lex>	<lex type="inh">m.</lex><lex><s><sr1/>lA</s> f.</lex>
+taralA	taralA	<lex>f<s>la</s>n</lex>	<lex>f.</lex><lex><s><sr1/>la</s> n.</lex>
+tulAkowi	tul/A--kowi	<lex><s>wI</s>f</lex>	<lex type="inh">m.</lex><lex><s><sr1/>wI</s> f.</lex>
+trAyamARA	tr/AyamAR/A	<lex>f<s>Ra</s>mn</lex>	<lex>f.</lex><lex><s><sr1/>Ra</s> mn.</lex>
+dakziRAvah	dakziRA--v/ah	<lex>mf<s>-vAw</s>n</lex>	<lex>mf<p><ab>nom.</ab>~<s>-v/Aw</s></p>n.</lex>
+div	d/iv	<lex>mff</lex>	<lex>m.</lex><lex>f.</lex><lex>f.</lex>
+devatAqa	dev/a--tAqa	<lex>m<s>qI</s>f</lex>	<lex>m.</lex><lex><s><sr1/>qI</s> f.</lex>
+devArcana	devA<srs/>rcana	<lex>n<s>nA</s>f</lex>	<lex>n.</lex><lex><s><sr1/>nA</s> f.</lex>
+nABi	n/ABi	<lex>m<s>BI</s>f</lex>	<lex type="inh">f.</lex><lex type="hwalt">m.</lex><lex><s><sr1/>BI</s> f.</lex>
+nArikela	nArikela	<lex>m<s>li</s>f<s>lI</s>f</lex>	<lex>m.</lex><lex><s><sr1/>li</s> f.</lex><lex><s><sr1/>lI</s> f.</lex>
+nAlikera	nAlikera	<lex>m<s>kerI</s>f</lex>	<lex>m.</lex><lex><s><sr1/>kerI</s> f.</lex>
+paYcasahasrI	paYca--sahasrI	<lex>f<s>ka</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><p><s>-ka</s></p>~mfn.</lex>
+pawwadola	pawwa--dola	<lex>m<s>lA</s>f</lex>	<lex>m.</lex><lex><s><sr1/>lA</s> f.</lex>
+pattrataRqulA	p/attra--taRqulA	<lex>f<s>lI</s>f</lex>	<lex>f.</lex><lex><s><sr1/>lI</s> f.</lex>
+pattrorRa	pattro<srs/>rRa	<lex><s>RA</s>f</lex>	<lex type="inh">m.</lex><lex><s><sr1/>RA</s> f.</lex>
+padminI	padminI	<lex>f<s>nIka</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><p><s><sr1/>nIka</s></p> mfn.</lex>
+parArIka	parArIka	<lex>m<s>kA</s>f</lex>	<lex>m.</lex><lex><s><sr1/>kA</s> f.</lex>
+parivastrA	pari-vastrA	<lex>f<s>tra</s>n</lex>	<lex>f.</lex><lex><s><sr1/>tra</s> n.</lex>
+paryuzaRa	pary-uzaRa	<lex>n<s>RA</s>f</lex>	<lex>n.</lex><lex><s><sr1/>RA</s> f.</lex>
+parIkzaRa	parI<srs/>kzaRa	<lex>n<s>RA</s>f</lex>	<lex>n.</lex><lex><s><sr1/>RA</s> f.</lex>
+pUrReSa	pUrRe<srs/>Sa	<lex>m<s>ReSI</s>f</lex>	<lex>m.</lex><lex><s><sr1/>ReSI</s> f.</lex>
+pfdAku	p/fdAku	<lex>m<s>dAkU</s>f</lex>	<lex>m.</lex><lex><s><sr1/>dAk/U</s> f.</lex>
+prodGozaRA	pro<srs/>d-<sr/>GozaRA	<lex>f<s>Ra</s>n</lex>	<lex>f.</lex><lex><s><sr1/>Ra</s> n.</lex>
+bahumArgI	bah/u--mArgI	<lex>f<s>ga</s>n</lex>	<lex>f.</lex><lex><s><sr1/>ga</s> n.</lex>
+bfhatI	bfhat/I	<lex>f<s>tIka</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><p><s><sr1/>tIka</s></p> mfn.</lex>
+brahmabanDu	brahma--banDu	<lex>m<s>DU</s>f</lex>	<lex>m.</lex><lex><s><sr1/>DU</s> f.</lex>
+BallAtaka	BallAtaka	<lex>m<s>kI</s>f</lex>	<lex>m.</lex><lex><s><sr1/>kI</s> f.</lex>
+marIci	m/arIci	<lex><s>cI</s>__f</lex>	<lex type="inh">mf.</lex><lex><s><sr1/>cI</s>_;_f.</lex>
+metf	m/etf	<lex>m<s>metA</s>f</lex>	<lex>m.</lex><lex><s>metA</s> f.</lex>
+varatrA	varatr/A	<lex>fn<s>a</s></lex>	<lex>f.</lex><lex>n<p><s>a</s></p>.</lex>
+vipaYcI	v/i--paYcI	<lex>f<s>cIka</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><p><s><sr1/>cIka</s></p> mfn.</lex>
+vErayAtanA	v/Era--yAtanA	<lex>n<s>a</s></lex>	<lex type="inh">f.</lex><lex>n<p><s>a</s></p>.</lex>
+samBinnavyaYjanA	sam-Binna---vyaYjanA	<lex>f<s>na</s>n</lex>	<lex>f.</lex><lex><s><sr1/>na</s>~ n.</lex>
+sTalanalinI	sTala--nalinI	<lex>f<s>nIka</s>mfn</lex>	<lex>f.</lex><lex type="hwifc"><p><s><sr1/>nIka</s></p> mfn.</lex>
+harItakI	harItakI	<lex>f<s>ka</s>mn</lex>	<lex>f.</lex><lex><s><sr1/>ka</s> mn.</lex>
+hfdayaSUlAnta	h/fdaya--SUlA<srs/>nta	<lex>mmfnmfn</lex>	<lex>m.</lex><lex type="hw">mfn.</lex><lex>mfn.</lex>

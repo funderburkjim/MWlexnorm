@@ -1,0 +1,206 @@
+readme.org for scans/MWScan/2014/research/lexnorm/
+
+A continuation of work begun in mwupdate/lgtab1/mapnorm/2014 directory.
+
+Oct 5, 2014.  Further work on this project
+is moved to the scans/MWScan/2014/research/  directory
+
+* step0: redo.sh (lexicalgrammar.xml)
+sh redo.sh
+
+This mimics the creation of lexicalgrammar.xml of lgtab directory;
+ it does it in one step.
+Inputs are:
+  mw.xml ( MWScan/2014/pywork/mw.xml)
+  dualPlural.txt
+* discussion of lexnorm.txt
+In this step, the function lex_adjust1 is common to both
+normlex_simplify.py and process1a.py.  
+cp normlex.txt prevnormlex.txt  (do this just once)
+normlex_simplify starts from prevnormlex and applies the lex_adjust1
+adjustments; this results in some duplicates, which are removed and the
+result written to a (revised) normlex.txt  (Also, the 'count' is removed.)
+Then, process1a applies the same adjustments to the lex data read from
+lexicalgrammar, and assigns the normalized lexical information from normlex.txt.
+
+This process is controlled by redotmp.sh, and is rerun multiple times, with
+minor adjustments to lex_adjust1.
+The final stage stage is a simplification of  step1a-2.
+Background note:
+normlex and process1a work together to normalize lexical information.
+For a given record of lexicalgrammar.xml,
+process1a
+ (a) concatenates the lex information, 
+ (b) does some simplication of lex information
+ (c) searches normlex for this simplified lex, and
+ (d) retrieves the corresponding normalization from normlex.
+So, the simplifications done by process1a are intended to correspond
+  to the lex forms in normlex.
+Now, we aim to 
+ (a) push more of the simplification process into process1a (by
+     modifying function lex_adjust)
+ (b) and, correspondingly change normlex.
+ (c) Thirdly, the <n> element of normlex.txt is not needed (we could
+     recreate it within process1a if we wanted).
+
+sh redo.sh
+cp process1a.py normlex_simplify.py (do this just once)
+python26 normlex_simplify.py prevnormlex.txt normlex.txt
+
+
+* step1a-4  (Oct 4, 2014)
+To finish normlex.txt.  Start with the normlex.txt of step1a-3.
+(a) simplifying the 'norm' field in normlex.txt
+(b) add lines in normlex.txt for those that are still in error.txt.
+
+* step1a : conclusion
+There is no further need for process1a.php and redophp.sh
+
+* redo_all.sh  (Oct 8, 2014)
+in research/lexnorm
+* push to github.com:funderburkjim/Mwlexnorm.git (update)
+in research/lexnorm directory,
+a. (optional)
+ git status
+b.
+git add readme.txt
+git add step0
+git add step1a
+git add redo_all.sh
+git commit -m "Correct L-num display error; show key2"
+c. (OMIT)
+git remote add origin git@github.com:funderburkjim/Mwlexnorm.git
+ (no response)
+c1. (OMIT)
+git remote set-url origin git@github.com:funderburkjim/MWlexnorm.git
+d. Push up to git@github.com:funderburkjim/Mwlexnorm.git
+git push origin master
+
+
+* ---------------------------------------------------------------
+* step0 background comments: BEGIN
+* ---------------------------------------------------------------
+* step0 : lexicalgrammar.xml from monier.xml (Sep 24, 2014)
+Does work previously coded in mwupdate/lgtab/ directory.
+Recreate lexicalgrammar.xml from monier.xml.
+
+Perl programs re-written in python.
+
+python lexicalgrammar.py ../../../../monier.xml lexicalgrammar0.xml
+xmllint --noout --valid lexicalgrammar0.xml
+* step0: explanation of lexicalgrammar0
+(Based on lexicalgrammar.py and lexicalgrammar.dtd)
+There is one record for each record of monier.xml, PROVIDED one of the
+ following conditions holds:
+ (a) The record contains a <pron>stem</pron> element
+ (b) The record contains a <card>stem</card> element
+ (c) The record contains a <lex> element which satisfies one of the conditions:
+  (i) the lex element has no type attribute (This is the most common case)
+  (ii) the lex element has a type attribute which is one of
+       hw,hwifc, hwalt, extra
+       Note 1: the dtd for monier.xml allows the following attributes for lex:
+         <!ATTLIST lex type (inh | phw | hw | hwifc | hwalt | nhw | hwinfo | 
+           part | extra) #IMPLIED >
+       Thus, lex elements are excluded which have type attribute with value
+          of phw,nhw, hwinfo, part
+       Note 2: Possibly, we should alter the logic in two ways:
+        - exclude <lex type="inh"> elements (since they should be redundant)
+        - include <lex type="part"> elements (part = participle)  This however
+          seems to occur within root records, so maybe it is proper to exclude.
+  (iii) the lex element has type="inh" and the contents of the element
+        contains pattern '<ab>(pl|du|sg)[.]' 
+For such a record of mw, the lexical grammar file has a record with fields:
+  dict = MW
+  dictref = L (lnum, formatted as %010.2f)
+  dictkey = key1
+  dictkey2 = key2
+  dictlex = concatenation of all acceptable lex elements within the record
+  stem = (a) contents of <pron> element, if present; else
+         (b) contents of <card> element, if present; else
+         (c) key1
+  lexid = 'pron' if pron element present, else
+          'card' if card element present, else
+          there is no lexid element
+  loan  An empty element present if the <loan/> element present in mw record,
+        else there is no loan element
+Note: there is another optional element 'inflectid' in dtd for
+lexicalgrammar; it is set for some records based on the DualPlural inputs
+described next.
+
+* step0:  review of integrating DualPlural data
+Review 
+In mwupdate/lgtab/,
+ an update process loads lexicalgrammar0.xml into mysql table 'lgtab';
+ the table has 3 fields:
+   id = {dict}-{dictref}  ({dict} is content of <dict> element,
+                           {dictref} is content of <dictref> element)
+        MW-Lnum (Lnum formatted at %010.2f)
+   key = {dictkey} = key1
+   data = entire lexicalgrammar record.
+
+Then, a process includes 'dual-plural' data from three initial 'sources':
+DualPluralStems15Feb08.txt, DualPluralStems_more.txt, 
+updateDualPlural3.txt
+
+The DualPlural.pl program creates 
+updateDualPlural1.txt from DualPluralStems15Feb08.txt, and
+updateDualPlural2.txt from DualPluralStems_more.txt.
+
+
+There does not appear to be a similar predecessor for updateDualPlural3.txt.
+
+DualPlural.pl reads from the mysql table 'lgtab' (created from lexicalgrammar0
+and one of the DualPlural...txt input files and creates a file 
+updateDualPluralX.txt for updating corresponding records of lgtab.
+Then, the update.pl program (in mwupdate/lgtab), implements these updates
+of lgtab.
+
+The DualPlural...txt files contain 4 pieces of data:
+  key1, stem, L, inflectid.
+
+In MW, these records have the headword (key1) as a dual or plural inflected
+form; by contrast, key1 is the inflectional stem for most MW records.
+So, the DualPlural...txt file contains the inflectional stem and also 
+provides the inflectional id (gender-case-number, e.g., 
+m1d = masculine-1st-singular) of key1.  The prior lgtab record is updated
+by (a) replacing the extant <stem> contents with the {stem} value from 
+the DualPlural...txt file, and (b) inserting (after  <stem>{stem}</stem>) 
+an <inflectid>{inflectid}</inflectid> element.
+
+* step0 - combined DualPlural.txt file
+* step0 - DualPlural lexicalgrammar0.xml + DualPlural.txt -> lexicalgrammar.xml
+python26 DualPlural.py lexicalgrammar0.xml DualPlural.txt lexicalgrammar.xml
+* step0: comparison of lexicalgrammar.xml to the one in lgtab
+When lexicalgrammar.xml thus computed is compared to the version in
+lgtab directory, four differences occurred, all related to the records
+in DualPlural.txt from updateDualPlural3.txt:
+48748, kArtakOjapO
+57709, kratUdakzO
+162348,mAtarapitarO
+219008,SukrAmanTinO
+
+In each case, the record in lgtab version contained (in dictlex),
+ <lex>m. <ab>du.</ab></lex>
+while the current version contained
+ <lex>m.</lex>
+This is not viewed as a significant problem.
+
+* step0: lexicalgrammar_dp.py 
+For the sake of programmatic simplicity,
+this combines lexicalgrammar.py and dualPlural.py into one step.
+
+We first run it with output lexicalgrammar1.xml
+python26 lexicalgrammar_dp.py ../../../../monier.xml DualPlural.txt lexicalgrammar1.xml
+check:
+diff lexicalgrammar1.xml lexicalgrammar.xml
+
+No output, thus lexicalgrammar_dp combines the steps.
+
+* step0: redo.sh  
+python26 lexicalgrammar_dp.py ../../../../monier.xml DualPlural.txt lexicalgrammar1.xml
+
+* step0 background comments: END
+* ---------------------------------------------------------------
+* ---------------------------------------------------------------
+* THE END
+

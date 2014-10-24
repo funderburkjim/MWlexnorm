@@ -1,0 +1,31 @@
+adjust_norm: form= <lex>m<s>mela</s></lex> , old= <lex>m<p><s>mela</s></p></lex> , new= m#mela
+adjust_norm: form= <lex>fm<s>mAna</s></lex> , old= f:<lex>m <s>mAna</s></lex> , new= f:m#mAna
+adjust_norm: form= <lex>fm<s>SiYja</s></lex> , old= f:<lex>m<p><s>SiYja</s></p></lex> , new= f:m#SiYja
+adjust_norm: form= <lex>fm<s>ka</s></lex> , old= f:<lex>m<s>ka</s></lex> , new= f:m#ka
+adjust_norm: form= <lex>fn<s>ta</s></lex> , old= f:<lex>n<p><s>ta</s></p></lex> , new= f:n#ta
+adjust_norm: form= <lex>mf<s>-jYUs</s>n</lex> , old= m:<lex>f<p><ab>nom</ab><s>-jY/Us</s></p>n</lex> , new= m:f#-jYUsn
+adjust_norm: form= <lex>mf<s>-vAt</s>n</lex> , old= m:<lex>f<p><ab>nom</ab><s>-v/At</s></p>n</lex> , new= m:f#-vAtn
+adjust_norm: form= <lex>mf<s>IH</s>n</lex> , old= m:<lex>f<p><ab>nom</ab><s>IH</s></p>n</lex> , new= m:f#IHn
+adjust_norm: form= <lex>mf<s>iH</s>n</lex> , old= m:<lex>f<p><ab>nom</ab><s>iH</s></p>n</lex> , new= m:f#iHn
+adjust_norm: form= <lex>mf<s>zwrI</s>n</lex> , old= m:<lex>f<p><ab>nom</ab><s>zwrI</s></p>n</lex> , new= m:f#zwrIn
+adjust_norm: form= <lex>mf<s>DA</s></lex> , old= m:<lex>f<p><s>-DA</s></p></lex> , new= m:f#DA
+adjust_norm: form= <lex>mf<s>A</s><s>I</s><s>han</s></p>n</lex> , old= m:<lex>f<p><s>A</s><s>I</s> <ab>f</ab> <c>of_2</c><s>han</s></p>n</lex> , new= m:f#A<s>I</s><s>han</s></p>n
+adjust_norm: form= <lex>mf<s>A</s><s>akA</s><s>ikA</s></lex> , old= m:<lex>f<p><s>A</s><s>akA</s><s>ikA</s></p></lex> , new= m:f#A<s>akA</s><s>ikA</s>
+adjust_norm: form= <lex>mf<s>A</s><s>paliknI</s>n</lex> , old= m:<lex>f<p><s>A</s><s>paliknI</s></p></lex>n: , new= m:f#A<s>paliknI</s>n
+adjust_norm: form= <lex>mf<s>I</s><c>or_=_m</c></p>n</lex> , old= m:<lex>f<p><s>I</s><c>or_=_m</c></p>n</lex> , new= m:f#I<c>or_=_m</c></p>n
+adjust_norm: form= <lex>mf<s>SAlyUhI</s>n</lex> , old= m:<lex>f<p><s>SAly-UhI</s></p></lex>n: , new= m:f#SAlyUhIn
+adjust_norm: form= <lex>mf<s>Scat</s><s>/asaScantI</s>n</lex> , old= m:<lex>f<p><s>Scat</s>,<c>eight_times_as</c> <ab>adj</ab>;<c>or</c><s>a-saScantI</s>,<c>thrice</c></p>n</lex> , new= m:f#Scat<s>/asaScantI</s>n
+adjust_norm: form= <lex>mf<s>/aSiSvi</s><s>aSiSu</s>n</lex> , old= m:<lex>f<p><s>a-SiSvi</s></p></lex><lex>f<p><s>a-SiSu</s></p></lex>n: , new= m:f#/aSiSvi<s>aSiSu</s>n
+adjust_norm: form= <lex>mf<s>/ajaGnuzI</s>n</lex> , old= m:<lex>f<p><s>a-jaGnuzI</s></p></lex>n: , new= m:f#/ajaGnuzIn
+adjust_norm: form= <lex>mf<s>/asatI</s>n</lex> , old= m:<lex>f<p><s>a-satI</s></p></lex>n: , new= m:f#/asatIn
+adjust_norm: form= <lex>mf<s>apyA</s><s>apI</s>n</lex> , old= m:<lex>f<p><s>apyA</s><s>apI</s></p>n</lex> , new= m:f#apyA<s>apI</s>n
+adjust_norm: form= <lex>mf<s>g/AnDarvI</s>n</lex> , old= m:<lex>f<p><s>g/AnDarvI-</s></p>n</lex> , new= m:f#g/AnDarvIn
+adjust_norm: form= <lex>mf<s>ikA</s><b><s>akA</s></b></p>n</lex> , old= m:<lex>f<p><s>ikA</s><p><s>akA</s> <ab>wr</ab></p></p>n</lex> , new= m:f#ikA<b><s>akA</s></b></p>n
+adjust_norm: form= <lex>mf<p>Ved<s>makA</s><s>mikA</s></p>n</lex> , old= m:<lex>f<p><s>makA</s><s>mikA</s></p></lex>n: , new= m:f<p>Ved<s>makA</s><s>mikA</s></p>n
+adjust_norm: form= <lex>mf<s>us</s><s>Us</s><s>vI</s>n</lex> , old= m:<lex>f<p><s>us</s><s>Us</s><s>vI</s></p>n</lex> , new= m:f#us<s>Us</s><s>vI</s>n
+adjust_norm: form= <lex>mf<s>vy-advarI</s></lex> , old= m:<lex>f<p><s>vy-/advarI</s></p></lex> , new= m:f#vy-advarI
+adjust_norm: form= <lex>mf<p>=<s>arI</s>n</lex> , old= m:<lex>f<p>= <ab>m</ab><s>arI</s></p>n</lex> , new= m:f<p>=<s>arI</s>n
+adjust_norm: form= <lex>mf<p>=m<s>mnI</s>n</lex> , old= m:<lex>f<p>=m<c>or</c><s>mnI</s></p>n</lex> , new= m:f<p>=m#m:nIn
+adjust_norm: form= <lex>mfn<s>at</s></lex> , old= m:f:<lex>n<p><s>at</s></p></lex> , new= m:fn#at
+adjust_norm: form= <lex>mfnn<s>mat</s></lex> , old= m:f:n:<lex>n<p><s>mat</s></p></lex> , new= m:fn:n#mat
+240 duplicates removed

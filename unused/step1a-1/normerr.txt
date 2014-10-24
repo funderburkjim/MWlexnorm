@@ -1,0 +1,60 @@
+668 read from normlex.txt
+Skipping line: <?xml version="1.0" encoding="UTF-8"?>
+
+Skipping line: <!DOCTYPE lexicalgrammar SYSTEM "lexicalgrammar.dtd">
+
+Skipping line: <lexicalgrammar>
+
+Skipping line: </lexicalgrammar>
+
+Skipping line: 
+198538 records read from lgtab
+198145 records written to step1a.txt
+344 records written to exclude.txt
+49 records written to error.txt
+3006 warning records written to warn.txt
+<n>     1</n>	<lex>n.</lex><lex>f <s>A</s>.</lex>	?
+<n>     1</n>	<lex>n.</lex><lex>m.</lex><lex>m. <ab>pl.</ab></lex>	?
+<n>     2</n>	<lex>mn.</lex><lex>f <s>A</s></lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>rya</s>mfn.</lex>	?
+<n>     1</n>	<lex>f<s>I</s>.</lex>	?
+<n>     1</n>	<lex><s><sr1/>RI</s>, f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>Ri</s> n.</lex>	?
+<n>     1</n>	<lex>mf<p><s>A</s>~<ls>MBh._xiii_,_2397</ls>~<ls>Hariv._9426</ls>~;~<s>I</s>~ <lex type="nhw">f.</lex>	?
+<n>     1</n>	<lex><s><sr1/>lA</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>la</s> n.</lex>	?
+<n>     1</n>	<lex><s><sr1/>wI</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>Ra</s> mn.</lex>	?
+<n>     1</n>	<lex>mf<p><ab>nom.</ab>~<s>-v/Aw</s></p>n.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex>f.</lex><lex>f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>qI</s> f.</lex>	?
+<n>     1</n>	<lex>n.</lex><lex><s><sr1/>nA</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>BI</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>li</s> f.</lex><lex><s><sr1/>lI</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>kerI</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><p><s>-ka</s></p>mfn.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>lA</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>lI</s> f.</lex>	?
+<n>     1</n>	<lex><s><sr1/>RA</s> f.</lex>	?
+<n>     2</n>	<lex>f.</lex><lex><p><s><sr1/>nIka</s></p>mfn.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>kA</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>tra</s> n.</lex>	?
+<n>     2</n>	<lex>n.</lex><lex><s><sr1/>RA</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>ReSI</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>dAk/U</s> f.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>Ra</s> n.</lex>	?
+<n>     1</n>	<lex>mf<p>=~ <lex type="nhw">m.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>ga</s> n.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><p><s><sr1/>tIka</s></p>mfn.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>DU</s> f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s><sr1/>kI</s> f.</lex>	?
+<n>     1</n>	<lex><s><sr1/>cI</s> f.</lex><lex>f.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex><s>metA</s> f.</lex>	?
+<n>     2</n>	<lex>f.</lex><lex>n<p><s>a</s></p>.</lex>	?
+<n>     1</n>	<lex>f<p><s>akA</s>~,~<s>ikA</s></p>.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><p><s><sr1/>cIka</s></p>mfn.</lex>	?
+<n>     1</n>	<lex>n<p><s>a</s></p>.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex>f<p><s>ikA</s>~or~<s>I</s></p>.</lex>	?
+<n>     1</n>	<lex>f<p><s>k</s></p>.</lex>	?
+<n>     1</n>	<lex>f.</lex><lex><s><sr1/>ka</s> mn.</lex>	?
+<n>     1</n>	<lex>m.</lex><lex>mfn.</lex><lex>mfn.</lex>	?
