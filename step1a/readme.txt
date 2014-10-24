@@ -21,9 +21,9 @@ Python program process1a.py (see redo.sh):
 
 python26 process1a.py lexmap.txt ../step0/lexicalgrammar.xml lexnorm.txt lexnorm-other.txt error.txt message.txt > normlog.txt
 
-The grammatical information in lexicalgrammar.xml is in the complicated mardup form as it appears in mw.xml. As a simple example, under headword akAma in
+The grammatical information in lexicalgrammar.xml is in the complicated markup form as it appears in mw.xml. As a simple example, under headword akAma in
 lexicalgrammar.xml, the grammatical information appears as:
-<lex>mf<p><s>A</s></p>n.</lex>
+`<lex>mf<p><s>A</s></p>n.</lex>`
 This is simplified by process1a in two steps.
 First, a sequence of regular expression substitutions reduces this to:
 <lex>mf<s>A</s>n</lex>
@@ -42,7 +42,7 @@ lex_adjust and lex_adjust1 functions of process1a.py.
 
 For those records of lexicalgrammar.xml identifed as pronouns, cardinal numbers,
 loan words, or having an inflection id (see step0/DualPlural.txt), the records 
-are output to lexnorm-other.txt. Here is a sample:
+are output to lexnorm-other.txt (283 entries as per 15/10/2014). Here is a sample:
 5	a	LEXID=pron,STEM=idam
 886	agnAmarutO	INFLECTID=m1d,STEM=agnAmarut
 14953	ayuta	LEXID=card,STEM=ayuta
