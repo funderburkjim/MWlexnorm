@@ -6,5 +6,5 @@ See the readme files in the sub-directories
 
 step0 : lexicalgrammar.xml
 step1 : lexnorm.txt
-
+A dummy comment made on the GitHub repository 
  
