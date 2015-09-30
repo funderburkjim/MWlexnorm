@@ -62,3 +62,8 @@ kratUdakzO:kratUdakza:57709:m1d
 mAtarapitarO:mAtarapitf:162348:m1d
 lambAviSvavayasO:lambAviSvavayas:181567:m1d
 SukrAmanTinO:SukrAmanTin:219008:m1d
+; Sep 26, 2015  additions (ejf)
+aSanAyApipAse:aSanAyApipAsA:19427:f1d
+somARqapille:somARqapillA:253112:f1d
+DAyine:DAyina:100943.1:n1d
+yaRvApatye:yaRvApatya:169550.1:n1d
