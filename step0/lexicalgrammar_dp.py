@@ -1,15 +1,15 @@
 """ lexicalgrammar_dp.py Sep 28, 2014
  Construct lexicalgrammar.xml from monier.xml (or mw.xml) and DualPlural.txt
- 
+ Sep 27, 2015.  Revised to also use participle.txt 
 """
 import sys, re,codecs
 
-def lexicalgrammar_dp(filein,fileout,dpdict):
- fout = codecs.open(fileout,"w",'utf-8')
+def lexicalgrammar_dp(filein,fileout,dpdict,partdict):
+ fout = codecs.open(fileout,"wb",'utf-8')
  fout.write('<?xml version="1.0" encoding="UTF-8"?>\n')
  fout.write('<!DOCTYPE lexicalgrammar SYSTEM "lexicalgrammar.dtd">\n')
  fout.write('<lexicalgrammar>\n')
- nfound=do_process1(filein,fout,dpdict)
+ nfound=do_process1(filein,fout,dpdict,partdict)
  print "nfound=",nfound
  fout.write('</lexicalgrammar>\n')
  fout.close()
@@ -25,8 +25,20 @@ def lexicalgrammar_dp(filein,fileout,dpdict):
  else: 
   print "%s DualPlural records not used" % n2
 
+ # status of partdict usage
+ n2=0
+ for dictkey in iter(partdict):
+  rec=partdict[dictkey]
+  if not rec.used:
+   n2 = n2 + 1
+   print 'particple line unused: ',rec.line
+ if n2 == 0:
+  print 'All participle records used'
+ else: 
+  print "%s participle records not used" % n2
+
 def dp_adjust(data,dpdict):
- data = data.rstrip('\r\n')
+ #data = data.rstrip('\r\n')
  if not data.startswith('<gram>'):
   return data
  m = re.search(r'<dictref>(.*?)</dictref>',data)
@@ -50,7 +62,54 @@ def dp_adjust(data,dpdict):
  rec.used = True
  return data
 
-def do_process1(filein,fout,dpdict):
+def part_adjust(data,partdict):
+ #data = data.rstrip('\r\n')
+ if not data.startswith('<gram>'):
+  return data
+ m = re.search(r'<dictref>(.*?)</dictref>',data)
+ dictref = m.group(1)  # assume match found
+ if dictref not in partdict:
+  return data
+ rec = partdict[dictref]
+ m = re.search(r'<dictkey>(.*?)</dictkey>',data)
+ dictkey = m.group(1)
+ if rec.key1 != dictkey:
+  print "dictkey error",dictkey
+  print "partrec=",(rec.key1,rec.root,rec.L,rec.inflectid)
+  print "lgdata=",data
+  exit(1)
+ m = re.search(r'<dictlex>(.*?)</dictlex>',data)
+ dictlex = m.group(0)  # assume match found
+
+ lexid = rec.lexid
+ rootclass = rec.rootclass
+ stem = rec.stem
+ L = rec.L
+ dictref = "%010.2f" % float(L)
+ dictkey2 = stem
+ # construct output 
+ linear=[]
+ linear.append("<gram>")
+ linear.append("<dict>MW</dict>" )
+ linear.append("<dictref>%s</dictref>" % dictref)
+ linear.append("<dictkey2><![CDATA[" + dictkey2 + "]]></dictkey2>")
+ linear.append("<dictkey>%s</dictkey>" % dictkey)
+ #linear.append("<dictlex><![CDATA[" + dictlex + "]]></dictlex>")
+ linear.append(dictlex)
+ linear.append("<stem>%s</stem>"%stem)
+ linear.append("<lexid>%s</lexid>"%lexid)
+ linear.append("<rootclass>%s</rootclass>"%rootclass)
+ linear.append("</gram>") #close the xml
+ data = ''.join(linear)
+ if rec.used:
+  print "Duplicate error",dictkey
+  print "partrec=",rec.line
+  print "lgdata=",data
+  exit(1)
+ rec.used = True
+ return data
+
+def do_process1(filein,fout,dpdict,partdict):
  nfound=0
  nfound1=0
  f = codecs.open(filein,"r",'utf-8')
@@ -65,6 +124,9 @@ def do_process1(filein,fout,dpdict):
   subdata = get_subdata(data1)
   if (subdata != ""):
    subdata1 = dp_adjust(subdata,dpdict)
+   if subdata1 == subdata:  
+    # no dp adjustment. Try participle adjustment
+    subdata1 = part_adjust(subdata1,partdict)
    fout.write("%s\n" % subdata1)
    nfound = nfound + 1
   if nfound >= m: 
@@ -116,7 +178,12 @@ def get_subdata(datain):
    if t != "inh":
     noninh = noninh+1
    elif re.search(r'<ab>(pl|du|sg)[.]',lexdata):
-    noninh = noninh+1
+    # Sep 27, 2015 Removed the next case. These are situations where
+    # (a) t == "inh" and (b) there is also a pl., etc in lexdata.
+    # I don't think these need to be considered for purpose of generating
+    # declension data
+    pass
+    #noninh = noninh+1
  if (noninh == 0):
   # this causes record to be omitted in output
   dictlex = ""
@@ -162,6 +229,31 @@ def get_subdata(datain):
  line = ''.join(linear)
  return(line)
 
+class Participle(object):
+ def __init__(self,t,line):
+  self.line=line
+  self.L = t[0]
+  self.stem = t[1]
+  self.key1 = re.sub(r'-','',self.stem)
+  self.rootclass = t[2] # root-class
+  self.lexid = t[3] # prap or fap
+  self.used = False
+
+def parse_participle(filein):
+ f = codecs.open(filein,"r",'utf-8')
+ partdict={}
+ for line in f:
+  line=line.rstrip('\r\n')
+  if line.startswith(';'): 
+   # comment
+   continue
+  t = line.split(':')
+  rec = Participle(t,line)
+  dictref = '%010.2f' % float(rec.L)
+  partdict[dictref] = rec
+ f.close()
+ return partdict
+
 class DualPlural(object):
  def __init__(self,t):
   self.key1 = t[0]
@@ -188,6 +280,8 @@ def parse_dualPlural(filein):
 if __name__=="__main__": 
  filein = sys.argv[1] # monier.xml
  filein1 = sys.argv[2] # DualPlural.txt
- fileout = sys.argv[3] # lexicalgrammar0.xml
+ filein2 = sys.argv[3] # participle.txt
+ fileout = sys.argv[4] # lexicalgrammar0.xml
  dpdict = parse_dualPlural(filein1)
- lexicalgrammar_dp(filein,fileout,dpdict)
+ partdict = parse_participle(filein2)
+ lexicalgrammar_dp(filein,fileout,dpdict,partdict)
