@@ -1,40 +1,40 @@
- 64745 m <lex>m</lex>
- 51373 m:f:n <lex>mfn</lex>
- 33676 n <lex>n</lex>
- 32104 f <lex>f</lex>
-  5622 ind <lex>ind</lex>
+ 64722 m <lex>m</lex>
+ 51318 m:f:n <lex>mfn</lex>
+ 33668 n <lex>n</lex>
+ 32105 f <lex>f</lex>
+  5624 ind <lex>ind</lex>
   2941 m:f#A:n <lex>mf<s>A</s>n</lex>
   2725 m:f#I:n <lex>mf<s>I</s>n</lex>
-  1890 m:n <lex>mn</lex>
+  1886 m:n <lex>mn</lex>
    395 m:f#A <lex>mf<s>A</s></lex>
    327 m:f#ikA:n <lex>mf<s>ikA</s>n</lex>
-   272 f#A:n <lex>nf<s>A</s></lex>
+   273 f#A:n <lex>nf<s>A</s></lex>
    267 m:f <lex>mf</lex>
    138 m:n <lex>nm</lex>
    120 m:f#A:f#I:n <lex>mf<s>A</s><s>I</s>n</lex>
    118 m:f#I <lex>mf<s>I</s></lex>
-   108 f#A <lex>f<s>A</s></lex>
+   107 f#A <lex>f<s>A</s></lex>
     83 m:f#A:n <lex>mnf<s>A</s></lex>
     65 f#A:f#I <lex>f<s>A</s><s>I</s></lex>
     43 m:f#iRI:n <lex>mf<s>iRI</s>n</lex>
     42 f:f#A <lex>ff<s>A</s></lex>
     38 m:f#A:f#I:n <lex>mf<s>I</s><s>A</s>n</lex>
     37 m:f#ikA <lex>mf<s>ikA</s></lex>
-    33 f:n <lex>fn</lex>
+    32 f:n <lex>fn</lex>
     32 m:f:n <lex>mfnm</lex>
     31 f#I <lex>f<s>I</s></lex>
-    31 m:f#antI:n <lex>mf<s>antI</s>n</lex>
     30 f:n <lex>nf</lex>
     30 m:f#A:n <lex>nmf<s>A</s></lex>
     29 m:f#arI:n <lex>mf<s>arI</s>n</lex>
     28 f#I:n <lex>nf<s>I</s></lex>
     28 m:f#GnI:n <lex>mf<s>GnI</s>n</lex>
-    27 m:f#trI:n <lex>mf<s>trI</s>n</lex>
+    27 m:f#antI:n <lex>mf<s>antI</s>n</lex>
+    26 m:f#trI:n <lex>mf<s>trI</s>n</lex>
     20 f#A:n <lex>f<s>A</s>n</lex>
     19 m:f <lex>fm</lex>
-    18 m:f#atI:n <lex>mf<s>atI</s>n</lex>
+    16 m:f#mnI:n <lex>mf<s>mnI</s>n</lex>
+    16 m:f#atI:n <lex>mf<s>atI</s>n</lex>
     16 m:f#varI:n <lex>mf<s>varI</s>n</lex>
-    15 m:f#mnI:n <lex>mf<s>mnI</s>n</lex>
     14 m:f:n <lex>mmfn</lex>
     12 m <lex>mm</lex>
     12 f#ikA <lex>f<s>ikA</s></lex>
@@ -125,12 +125,6 @@
 >>> 162531	mADava	mA/Dava	m:f#I:f#A:n
 >>> 173052	rakza	rakza/	m:f#I:f#A:n
 >>> 225408	zoqaSa	zo-qaSa/	m:f#I:f#A:n
-     5 f#Us <lex>f<s>Us</s></lex>
->>> 42899	kadrU	kadrU/	f#Us
->>> 42901	kadrU	kadrU/	f#Us
->>> 65351	guggulu	gu/ggulu	f#Us
->>> 65356	guNgu	guNgu/	f#Us
->>> 76700	jatu	jatu	f#Us
      5 f#I:n <lex>f<s>I</s>n</lex>
 >>> 14785	ayaspAtra	a/yas--pAtra/	f#I:n
 >>> 27075	AvikI	AvikI	f#I:n
@@ -141,7 +135,7 @@
 >>> 14875.1	ayAs	ayA/s	n:ind
 >>> 41360	ka	ka/	n:ind
 >>> 86446	tUla	tU/la	n:ind
->>> 98579.1	dvibarhAs	dvi--ba/rhAs	n:ind
+>>> 98580	dvibarhAs	dvi--ba/rhAs	n:ind
 >>> 103845	namas	na/mas	n:ind
      5 m:f#A:n <lex>nmf<s>A</s>n</lex>
 >>> 27890	Asya	Asya/	m:f#A:n
@@ -173,6 +167,11 @@
 >>> 107122	nirBastraka	nir--Bastraka	m:f#akA:f#ikA:n
 >>> 204819	vfndAraka	vf/ndAraka	m:f#akA:f#ikA:n
 >>> 258472	svaka	svaka	m:f#akA:f#ikA:n
+     4 f#trI <lex>f<s>trI</s></lex>
+>>> 76939	janikartf	ja/ni--kartf	f#trI
+>>> 99898	Dartf	Dartf/	f#trI
+>>> 134656	pradAtf	pra-<sr/>dAtf/	f#trI
+>>> 148804	Bartf	Bartf/	f#trI
      4 m:f:n <lex>mfnmfn</lex>
 >>> 8684	anyonya	anyonya	m:f:n
 >>> 19167.2	avfzaRa	a-vfzaRa	m:f:n
@@ -193,11 +192,6 @@
 >>> 154100	maGa	maGa/	f#A:f#I
 >>> 163423	mArgaSIrza	mArga--SIrza	f#A:f#I
 >>> 164655	mInARqa	mInA<srs/>Rqa	f#A:f#I
-     4 m:f#inI:n <lex>mf<s>inI</s>n</lex>
->>> 25875	AyuHpati	AyuH--pati	m:f#inI:n
->>> 34983	upanizAdin	upa-nizAdin	m:f#inI:n
->>> 156422	maDyayogin	ma/Dya--yogin	m:f#inI:n
->>> 187505	varRin	varRin	m:f#inI:n
      4 m:f:f#A:n <lex>mfnf<s>A</s></lex>
 >>> 78846	jAnuka	jAnuka	m:f:f#A:n
 >>> 114971	pattraka	pattraka	m:f:f#A:n
@@ -232,10 +226,10 @@
 >>> 27735	ASlezA	A-SlezA	f
 >>> 172188	yuvati	yuvati/	f
 >>> 187035	varaRamAlA	varaRa--mAlA	f
-     3 f#trI <lex>f<s>trI</s></lex>
->>> 76939	janikartf	ja/ni--kartf	f#trI
->>> 134656	pradAtf	pra-<sr/>dAtf/	f#trI
->>> 148804	Bartf	Bartf/	f#trI
+     3 f#Us <lex>f<s>Us</s></lex>
+>>> 65351	guggulu	gu/ggulu	f#Us
+>>> 65356	guNgu	guNgu/	f#Us
+>>> 76700	jatu	jatu	f#Us
      3 m:f:n <lex>mnmfn</lex>
 >>> 79902	jIvAtu	jIvA/tu	m:f:n
 >>> 116380	parArDa	parA<srs/>rDa/	m:f:n
@@ -276,6 +270,10 @@
 >>> 86404	tUbara	tUbara	m:f:f#I:n
 >>> 138068.2	prasUvara	pra-sU/---vara	m:f:f#I:n
 >>> 262604.1	hInAtiriktANga	hInA<srs/>tirik<sr1/>tA<srs/>Nga	m:f:f#I:n
+     3 m:f#inI:n <lex>mf<s>inI</s>n</lex>
+>>> 34983	upanizAdin	upa-nizAdin	m:f#inI:n
+>>> 156422	maDyayogin	ma/Dya--yogin	m:f#inI:n
+>>> 187505	varRin	varRin	m:f#inI:n
      3 m:f#IcI:n <lex>mf<s>IcI</s>n</lex>
 >>> 32301	udac	u/d-ac	m:f#IcI:n
 >>> 139294	prAgudaYc	prAg--udaYc	m:f#IcI:n
@@ -375,6 +373,9 @@
      2 f#A:f#I:n <lex>nf<s>A</s>f<s>I</s></lex>
 >>> 126969	puzpa	pu/zpa	f#A:f#I:n
 >>> 179062	rUpa	rUpa/	f#A:f#I:n
+     2 m:f#tnI:n <lex>mf<s>tnI</s>n</lex>
+>>> 25875	AyuHpati	AyuH--pati	m:f#tnI:n
+>>> 25903	Ayuzpati	Ayuz--pati	m:f#tnI:n
      2 m:f#qvI:n <lex>mf<s>qvI</s>n</lex>
 >>> 203472	vIqu	vIqu/	m:f#qvI:n
 >>> 203474	vILu	vILu/	m:f#qvI:n
@@ -454,8 +455,6 @@
 >>> 86119	tulAkowi	tulA/--kowi	f#wI
      1 f#cI <lex><s>cI</s>f</lex>
 >>> 158192	marIci	ma/rIci	f#cI
-     1 f#tF <lex>f<s>tF</s></lex>
->>> 99898	Dartf	Dartf/	f#tF
      1 f#RA <lex><s>RA</s>f</lex>
 >>> 114969	pattrorRa	pattro<srs/>rRa	f#RA
      1 f#lA <lex><s>lA</s>f</lex>
@@ -522,12 +521,16 @@
 >>> 12577	aBIzah	aBI-za/h	m:f:n
      1 m:f:n <lex>m<s>-vAhas</s>fn</lex>
 >>> 10905	apsuvah	apsu/--va/h	m:f:n
+     1 f:ind <lex>find</lex>
+>>> 188554	vazawkfti	va/zaw--kfti	f:ind
      1 m:f:n <lex>fmfn</lex>
 >>> 134005	pratyaBijYA	praty-<sr/>aBijYA	m:f:n
      1 m:f:n <lex>m<s>vAn</s><s>a/raruzas</s>fn</lex>
 >>> 15198	ararivas	a/-rarivas	m:f:n
      1 m:f:n <lex>mnf</lex>
 >>> 138200	prasena	pra-sena	m:f:n
+     1 f#A:n <lex>f<p>A</p>n</lex>
+>>> 48418	kAmpilya	kAmpilya	f#A:n
      1 m#vAn <lex>m<s>vAn</s></lex>
 >>> 90698	darSivas	darSivas	m#vAn
      1 m:f:n <lex>fmn</lex>
@@ -536,8 +539,6 @@
 >>> 19189	avedavidvas	a/-veda--vidvas	m:f:n
      1 m:f:n <lex>m<s>dDA</s>fn</lex>
 >>> 14971	ayodDf	a-yodDf/	m:f:n
-     1 f:ind <lex>find</lex>
->>> 188554	vazawkfti	va/zaw--kfti	f:ind
      1 m:f:n <lex>m<s>vAn</s>fn</lex>
 >>> 10869	aprozivas	a/-pro<srs/>zivas	m:f:n
      1 m:f#vi <lex>mf<s>vi</s></lex>
@@ -662,6 +663,8 @@
 >>> 247057	sunayaka	su--nayaka	m:f#yikA
      1 f:f#padA <lex>ff<s>padA</s></lex>
 >>> 87899	tripada	tri/--pada	f:f#padA
+     1 m:f#IH:n <lex>mf<s>IH</s>n</lex>
+>>> 3718	adurmaNgala	a/-durmaNgala	m:f#IH:n
      1 m:f#RI:n <lex>mf<s>RI</s>n</lex>
 >>> 118528	parivAhin	pari-vAhi/n	m:f#RI:n
      1 m:f#ttyA <lex>mf<s>ttyA</s></lex>
@@ -694,8 +697,6 @@
 >>> 123303	pAvamAnI	pAvamAnI/	m#mAna:f
      1 m:f:f#zI <lex>mff<s>zI</s></lex>
 >>> 159032	mazi	mazi	m:f:f#zI
-     1 m:f#IH:n <lex>mf<s>IH</s>n</lex>
->>> 3718	adurmaNgala	a/-durmaNgala	m:f#IH:n
      1 m:f#kerI <lex>m<s>kerI</s>f</lex>
 >>> 106166	nAlikera	nAlikera	m:f#kerI
      1 f#I:f#Is <lex>f<s>Is</s><s>I</s></lex>
@@ -724,6 +725,8 @@
 >>> 61975	KuqqAka	KuqqAka	m:f#IkA:n
      1 f#I:f#A:n <lex>nf<s>I</s>f<s>A</s></lex>
 >>> 142693	banDana	ba/nDana	f#I:f#A:n
+     1 m:f#wrI:n <lex>mf<s>wrI</s>n</lex>
+>>> 169540	yazwf	yazwf/	m:f#wrI:n
      1 m:f#stI:n <lex>mf<s>stI</s>n</lex>
 >>> 22628	Agastya	Agastya	m:f#stI:n
      1 m:f#ikA:n <lex>mf<s>ikA</s></p>n</lex>
@@ -738,8 +741,6 @@
 >>> 93266	dIrGAhan	dIrGA<srs/>han	m:f#hnI:n
      1 m:f:f#A:n <lex>fmf<s>A</s>n</lex>
 >>> 105685	nABinAlA	nA/Bi--nA<sr/>lA	m:f:f#A:n
-     1 m:f#tnI:n <lex>mf<s>tnI</s>n</lex>
->>> 25903	Ayuzpati	Ayuz--pati	m:f#tnI:n
      1 m:f#mRI:n <lex>mf<s>mRI</s>n</lex>
 >>> 250225	suzAman	su--zAma/n	m:f#mRI:n
      1 f:f#i:f#I <lex>ff<s>i</s><s>I</s></lex>
@@ -782,8 +783,6 @@
 >>> 143414	baliSa	baliSa	f#i:f#SI:n
      1 m:f#gocI:n <lex>mf<s>gocI</s>n</lex>
 >>> 64359	gavAYc	gavA<srs/>Yc	m:f#gocI:n
-     1 m:f#anti:n <lex>mf<s>anti</s>n</lex>
->>> 183105	lolat	lolat	m:f#anti:n
      1 m:f#I:f#yA <lex>mf<s>I</s>f<s>yA</s></lex>
 >>> 96870	dEvayajYi	dEva--yajYi	m:f#I:f#yA
      1 f#A:ind#am <lex>f<s>A</s>ind<s>am</s></lex>
@@ -804,16 +803,14 @@
 >>> 213083	SaMgaya	SaM--gaya/	m:f#gayI:n
      1 m:f#jYUs:n <lex>mf<s>-jYUs</s>n</lex>
 >>> 20985	asitajYu	a/sita--jYu/	m:f#jYUs:n
-     1 m:f#Gn/I:n <lex>mf<s>-GnI</s>n</lex>
->>> 21080	asurahan	a/sura--ha/n	m:f#Gn/I:n
+     1 m:f#GnI/:n <lex>mf<s>-GnI</s>n</lex>
+>>> 21080	asurahan	a/sura--ha/n	m:f#GnI/:n
      1 m:f#DUcI:n <lex>mf<s>DUcI</s>n</lex>
 >>> 156321	maDvaYc	maDv--aYc	m:f#DUcI:n
      1 f#SAsanA:n <lex>nf<s>SAsanA</s></lex>
 >>> 216303	SAsana	SA/sana	f#SAsanA:n
      1 m:f#zUcI:n <lex>mf<s>zUcI</s>n</lex>
 >>> 202245	vizvaYc	vizvaYc	m:f#zUcI:n
-     1 m:f#minI:n <lex>mf<s>minI</s>n</lex>
->>> 131548	pratinAman	prati--nAman	m:f#minI:n
      1 m:f#tinI:n <lex>mf<s>tinI</s>n</lex>
 >>> 131631	pratiprati	prati--prati/	m:f#tinI:n
      1 m:f#zwrI:n <lex>mf<s>zwrI</s>n</lex>
@@ -822,8 +819,8 @@
 >>> 18523	avAcInaSIrzan	avAcIna--SIrza/n	m:f#rzRI:n
      1 m:f#tuzI:n <lex>mf<s>tuzI</s>n</lex>
 >>> 73486	cikitvas	cikitva/s	m:f#tuzI:n
-     1 m:f#d/fSI:n <lex>mf<p>Ved<s>-dfSI</s>n</lex>
->>> 246732	sudfS	su--df/S	m:f#d/fSI:n
+     1 m:f#df/SI:n <lex>mf<p>Ved<s>-dfSI</s>n</lex>
+>>> 246732	sudfS	su--df/S	m:f#df/SI:n
      1 m:f#drIcI:n <lex>mf<s>drIcI</s>n</lex>
 >>> 202255	vizvadryaYc	vizvadryaYc	m:f#drIcI:n
      1 m:f#ScuzI:n <lex>mf<s>ScuzI</s>n</lex>
@@ -846,16 +843,14 @@
 >>> 32495	udAra	ud-Ara/	m:f#A:f#I:n
      1 m:f#pUrvI:n <lex>mf<s>pUrvI</s>n</lex>
 >>> 126299	puru	puru/	m:f#pUrvI:n
-     1 m:f#p/adI:n <lex>mf<s>-padI</s>n</lex>
->>> 247354	supad	su--pad	m:f#p/adI:n
+     1 m:f#pa/dI:n <lex>mf<s>-padI</s>n</lex>
+>>> 247354	supad	su--pad	m:f#pa/dI:n
      1 m:f:f#trI:n <lex>mfnf<s>trI</s></lex>
 >>> 231990	saMniDAtf	saM-niDAtf	m:f:f#trI:n
      1 m:f#li:f#lI <lex>m<s>li</s>f<s>lI</s>f</lex>
 >>> 106103	nArikela	nArikela	m:f#li:f#lI
      1 m:f#A:f#I:n <lex>mf<s>A</s><s>I</s><etc/></p>n</lex>
 >>> 70905	caRqa	ca/Rqa	m:f#A:f#I:n
-     1 m:f#jI:f#jA <lex>mm<s>rAja</s>f<s>rAjan</s><s>jA</s><s>jYI</s></lex>
->>> 176833	rAjan	rAjan	m:f#jI:f#jA
      1 m:f#A:f#I:n <lex>mf<s>A</s><s>I</s><s>aruRayas</s></p>n</lex>
 >>> 15417	aruRa	aruRa/	m:f#A:f#I:n
      1 m:f#A:f#I:n <lex>mf<s>A</s><s>I</s><s>kASyAdi</s>n</lex>
@@ -916,6 +911,8 @@
 >>> 164838	muKa	muKa	m:f:n:ind#am
      1 m:f#SIrzRI:n <lex>mf<s>SIrzRI</s>n</lex>
 >>> 37108	uBayataHSIrzan	uBaya/taH--SIrzan	m:f#SIrzRI:n
+     1 m:f#jYI:f#jA <lex>mm<s>rAja</s>f<s>rAjan</s><s>jA</s><s>jYI</s></lex>
+>>> 176833	rAjan	rAjan	m:f#jYI:f#jA
      1 m:f#U:f#vI:n <lex>mf<s>vI</s><s>U</s>n</lex>
 >>> 113394	paNgu	paNgu	m:f#U:f#vI:n
      1 m:f:f#pArzRI <lex>fmf<s>pArzRI</s></lex>
@@ -978,10 +975,10 @@
 >>> 231048	sanutf	sanutf	m:f:f#sanutrI:n
      1 m:f#ikA:f#ikI:n <lex>mf<s>ikA</s><s>ikI</s>n</lex>
 >>> 50135	kAstIrika	kAstIrika	m:f#ikA:f#ikI:n
-     1 m:f#akA:f#ikA:n <lex>mf<s>ikA</s><s>akA</s></p>n</lex>
->>> 190151	vAcaka	vAcaka	m:f#akA:f#ikA:n
      1 m:f#akI:f#ikA:n <lex>mf<s>ikA</s><s>akI</s>n</lex>
 >>> 122302	pApaka	pA/paka	m:f#akI:f#ikA:n
+     1 m:f#akA:f#ikA:n <lex>mf<s>ikA</s><s>akA</s></p>n</lex>
+>>> 190151	vAcaka	vAcaka	m:f#akA:f#ikA:n
      1 m:f#A:f#SvenI:n <lex>mf<s>A</s><s>SvenI</s>n</lex>
 >>> 224516	Sveta	Sveta/	m:f#A:f#SvenI:n
      1 m:f:f#i:f#I:f#BI <lex>ff<s>i</s><s>I</s>mf<s>BI</s></lex>
@@ -1018,10 +1015,10 @@
 >>> 40031	etaka	etaka	m:f#ikA:f#enikA:n
      1 m:f#vI:f#us:f#Us:n <lex>mf<s>us</s><s>Us</s><s>vI</s>n</lex>
 >>> 82274	tanu	tanu/	m:f#vI:f#us:f#Us:n
-     1 m:f#vatI:f#vatnI:n <lex>mf<s>vatI</s><s>vatnI</s>n</lex>
->>> 8148	antarvat	antar--vat	m:f#vatI:f#vatnI:n
      1 m:f#tI:f#SaSvatI:n <lex>mf<s>SaSvatI</s><s>tI</s>n</lex>
 >>> 214493	SaSvat	Sa/Svat	m:f#tI:f#SaSvatI:n
+     1 m:f#vatI:f#vatnI:n <lex>mf<s>vatI</s><s>vatnI</s>n</lex>
+>>> 8148	antarvat	antar--vat	m:f#vatI:f#vatnI:n
      1 m:f#sOrI:f#sOryA:n <lex>mf<s>sOrI</s><s>sOryA</s>n</lex>
 >>> 253827	sOrya	sO/rya	m:f#sOrI:f#sOryA:n
      1 m#rya:f:f#ryA:n#rya <lex>f<s>rya</s>mfn</lex>
