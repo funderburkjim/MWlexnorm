@@ -7,6 +7,7 @@
  Oct 6, 2014 - simplify the printed form of dictref, 
    e.g. from 0029224.00 to 29224.
  Oct 8, 2014 - 
+ Sep 27, 2015 Modify to write participles to 'other' file
 """
 import sys, re,codecs
 
@@ -160,6 +161,7 @@ class Lgtab(object):
   self.loan = False
   self.lexid = None
   self.inflectid = None
+  self.rootclass = None
   m = re.search(r'<loan',rest)
   if m:
    self.loan = True
@@ -169,7 +171,10 @@ class Lgtab(object):
   m = re.search(r'<inflectid>(.*?)</inflectid>',rest)
   if m:
    self.inflectid = m.group(1)
-
+  m = re.search(r'<rootclass>(.*?)</rootclass>',rest)
+  if m:
+   self.rootclass = m.group(1)
+  
 def process_record(data,normlex,normerrs):
  datah = Lgtab(data)
  outarr = []
@@ -192,7 +197,10 @@ def process_record(data,normlex,normerrs):
  if datah.loan:
   outarr.append("LOAN")
  if datah.lexid:
-  outarr.append("LEXID=%s,STEM=%s" % (datah.lexid,stem))
+  if datah.rootclass:
+   outarr.append("LEXID=%s,STEM=%s,ROOTCLASS=%s" % (datah.lexid,stem,datah.rootclass))
+  else: # pronouns, cardinals
+   outarr.append("LEXID=%s,STEM=%s" % (datah.lexid,stem))
  elif datah.inflectid:
   outarr.append("INFLECTID=%s,STEM=%s" % (datah.inflectid,stem))
  if len(outarr) != chklen:

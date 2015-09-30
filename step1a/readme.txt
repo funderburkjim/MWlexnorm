@@ -7,6 +7,12 @@ Oct 8, 2014
   Also, since this data comes from mw.xml (and not monier.xml), the
   accents FOLLOW the vowel (in monier.xml accents PRECEDE the vowel).
   This is for consistency with a change in Scharf's SLP1 protocol.
+Note Sep 20, 2015
+  The format of a line of lexnorm.txt is now 4 tab-delimited fields:
+  lnum, key1, key2, lexinfo
+  And, the lexinfo field has form of 1 or more colon-delimited fields, each
+  of which has one of two forms:
+  gender OR  gender#ending
 
 Oct 10, 2014
  Provide PHP program 'simplify_lexnorm.php' to simplify the lexnorm output to
