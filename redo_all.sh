@@ -4,4 +4,7 @@ sh redo.sh
 echo "Redoing step1a..."
 cd ../step1a
 sh redo.sh
+echo "Redoing step1b..."
+cd ../step1b
+sh redo.sh
 echo "DONE"
