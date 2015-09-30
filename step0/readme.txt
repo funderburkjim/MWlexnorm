@@ -1,6 +1,7 @@
 readme.txt for lexnorm/step0
 Oct 6, 2014
 Jim Funderburk
+Sep 27, 2015 add present and future participles (See below)
 
 The lexicalgrammar file structure was designed to contain grammatical 
 information for headwords in a lexicon.  This work was begun in 2008 by
@@ -20,9 +21,16 @@ lexicon. However, only the Monier-Williams (1899) dictionary (MW) has been used 
 
 The lexicalgrammar.xml file contains a record for essentially every record which is a nominal; a more complete description of record selection is provided below.  As currently constituted, this file is constructed from two inputs: mw.xml and DualPlural.txt.  Some of the markup (to identify pronouns, cardinal numbers, and loan words) in mw.xml was added as metadata to mw.xml precisely for the purpose of lexicalgrammr.xml.  The non-inclusion in mw.xml of the meta-data present in DualPlural.txt is essentially an historical accident.
 
+(Sep 27, 2015)  The construction now includes a third input file, participle.txt.  This file contains the MW entries which are identified as either
+present active participles (prap) or future active participles (fap).
+For either type of participle, the underlying root is also provided (a couple
+of cases have a question mark ('?') indicating uncertainty of the root.
+For the present participles, the 'prap' marking includes the root class of
+the participle (e.g. prap-1, meaning that the given root is of class 1 (BU)).
+
 The construction of lexicalgrammar.xml is done by a single python program,
 
-python26 lexicalgrammar_dp.py <mw.xml> DualPlural.txt lexicalgrammar.xml
+python lexicalgrammar_dp.py <mw.xml> DualPlural.txt participle.txt lexicalgrammar.xml
 <mw.xml> here indicates the file-system location of mw.xml, which is available
 in the mwxml.zip download at url 
 http://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2014/web/webtc/download.html
@@ -31,9 +39,8 @@ The redo.sh file in this repository contains, for <mw.xml>, the relative path
 ../../../pywork/mw.xml  on the system where this was run.  You will likely
 need to replace this relative path with one appropriate for your system.
 
-The use of python26 identifies the version of the Python interpreter  on the
-system where this was run, and you may need to change this on your system.
-Python version 2.7 will run fine.  To run with a version 3 of Python, you
+The Python program requires Python 2.6, and was most recently run with 
+Python 2.7. To run with a version 3 of Python, you
 would likely need to change the lexicalgrammar_dp.py.
 
 One intended use of lexicalgrammar.xml was the creation of declensions. For the vast majority of nominal headwords (such as those whose stem ends in a short-vowel), the information in lexicalgrammar.xml is sufficient input for proper declension.  However, for a significant minority, additional information is required. For nominals whose stem ends in a consonant, including present active participles and future participles, further information is required.  Two attempts has been made to carry forth this declension constructure. The results are available
@@ -115,3 +122,24 @@ m1d = masculine-1st-singular) of key1.  The prior lgtab record is updated
 by (a) replacing the extant <stem> contents with the {stem} value from 
 the DualPlural...txt file, and (b) inserting (after  <stem>{stem}</stem>) 
 an <inflectid>{inflectid}</inflectid> element.
+
+(Sep 27, 2015)
+The participle.txt file contains records with 4 pieces of data:
+ L,stem,rootclass,lexid
+where
+ stem is key1, perhaps with '-' as in 'a-karizyat'.
+ lexid is 'prap' or 'fap'
+ rootclass is slightly different for the two cases of lexid:
+    When lexid is 'fap' (future active participle),  rootclass is the root.
+    When lexid is 'prap' (present active participle), rootclass is
+      root-class. Example: 15704:arcat:arc-1:prap.  The class is provided,
+      since some details of the declension of the present active participle
+      of a root depend on the class of that root.
+ 
+ In the lexicalgrammar.xml file,  a particple.txt record is rendered to 
+ have fields:
+   <stem>stem</stem><lexid>lexid</lexid><rootclass>rootclass</rootclass>
+  Example, for 15704:arcat:arc-1:prap:
+   <stem>arcat</stem><lexid>prap</lexid><rootclass>arc-1</rootclass>
+  Example, for 3684.1:a-dAsyat:dA:fap
+   <stem>a-dAsyat</stem><lexid>fap></lexid><rootclass>dA</rootclass>
