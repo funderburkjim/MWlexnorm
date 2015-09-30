@@ -1,7 +1,0 @@
-(from Chandrashekar,ejf)
-key1	stem	L.No.	InflectID.
-agnIvaruRO	agnIvaruRa	1158	m1d
-agnIzomA	agnIzoma	1159	m1d
-arRAcitraraTA	arRAcitraraTa	15799	m1d
-sUryAcandramasA	sUryAcandramas	251720	m1d
-sUryAmAsA	sUryAmAs	251742	m1d

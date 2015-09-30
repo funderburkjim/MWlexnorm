@@ -1,2 +1,0 @@
-<lex><s>RI</s>f</lex>	f#RI:
-<lex>m<s>Ri</s>n</lex>	m#Ri:n:
