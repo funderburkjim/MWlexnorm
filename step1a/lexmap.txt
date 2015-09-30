@@ -27,7 +27,6 @@
 <lex>f<s>is</s><s>I</s></lex>	f#I:f#is
 <lex>f<s>lyA</s></lex>	f#lyA
 <lex>f<s>meTI</s></lex>	f#meTI
-<lex>f<s>tF</s></lex>	f#tF
 <lex>f<s>trI</s></lex>	f#trI
 <lex>f<s>u</s><s>U</s></lex>	f#u:f#U
 <lex>f<s>us</s><s>vI</s></lex>	f#vI:f#us
@@ -56,6 +55,8 @@
 <lex>mf<s>IH</s>n</lex>	m:f#IH:n
 <lex>mf<s>iH</s>n</lex>	m:f#iH:n
 <lex>mf<s>zwrI</s>n</lex>	m:f#zwrI:n
+<lex>mf<s>wrI</s>n</lex>	m:f#wrI:n
+<lex>f<p>A</p>n</lex>	f#A:n
 <lex>mf<s>DA</s></lex>	m:f#DA
 <lex>mf<s>A</s><s>I</s><s>han</s></p>n</lex>	m:f#A:f#I:n
 <lex>mf<s>A</s><s>paliknI</s>n</lex>	m:f#A:f#paliknI:n
@@ -112,7 +113,7 @@
 <lex>mf<s>BvI</s>n</lex>	m:f#BvI:n
 <lex>mf<s>DUcI</s>n</lex>	m:f#DUcI:n
 <lex>mf<s>DnI</s>n</lex>	m:f#DnI:n
-<lex>mf<s>-GnI</s>n</lex>	m:f#Gn/I:n
+<lex>mf<s>-GnI</s>n</lex>	m:f#GnI/:n
 <lex>mf<s>GnI</s><s>haRI</s>n</lex>	m:f#GnI:f#haRI:n
 <lex>mf<s>GnI</s>n</lex>	m:f#GnI:n
 <lex>mf<s>GnuzI</s>n</lex>	m:f#GnuzI:n
@@ -160,14 +161,13 @@
 <lex>mf<s>akA</s><s>ikA</s>n</lex>	m:f#akA:f#ikA:n
 <lex>mf<s>antI</s><s>atI</s>n</lex>	m:f#atI:f#antI:n
 <lex>mf<s>antI</s>n</lex>	m:f#antI:n
-<lex>mf<s>anti</s>n</lex>	m:f#anti:n
 <lex>mf<s>arI</s>n</lex>	m:f#arI:n
 <lex>mf<s>arI</s></p>n</lex>	m:f#arI:n
 <lex>mf<s>atI</s><s>antI</s>n</lex>	m:f#atI:f#antI:n
 <lex>mf<s>atI</s>n</lex>	m:f#atI:n
 <lex>mf<s>attrI</s></lex>	m:f#attrI
 <lex>mf<s>cI</s></lex>	m:f#cI
-<lex>mf<p>Ved<s>-dfSI</s>n</lex>	m:f#d/fSI:n
+<lex>mf<p>Ved<s>-dfSI</s>n</lex>	m:f#df/SI:n
 <lex>mf<s>drIcI</s>n</lex>	m:f#drIcI:n
 <lex>mf<s>enI</s>n</lex>	m:f#enI:n
 <lex>mf<s>f</s>n</lex>	m:f#f:n
@@ -201,14 +201,13 @@
 <lex>mf<s>kzuzI</s>n</lex>	m:f#kzuzI:n
 <lex>mf<s>mRI</s>n</lex>	m:f#mRI:n
 <lex>mf<s>mahizI</s>n</lex>	m:f#mahizI:n
-<lex>mf<s>minI</s>n</lex>	m:f#minI:n
 <lex>mf<s>mnI</s>n</lex>	m:f#mnI:n
 <lex>mf<s>nI</s></lex>	m:f#nI
 <lex>mf<s>nI</s>n</lex>	m:f#nI:n
 <lex>mf<s>nIci</s>n</lex>	m:f#nIci:n
 <lex>mf<s>ntI</s></lex>	m:f#ntI
 <lex>mf<s>ntI</s>n</lex>	m:f#ntI:n
-<lex>mf<s>-padI</s>n</lex>	m:f#p/adI:n
+<lex>mf<s>-padI</s>n</lex>	m:f#pa/dI:n
 <lex>mf<s>pA</s><s>pI</s>n</lex>	m:f#pA:f#pI:n
 <lex>mf<s>pUrvI</s>n</lex>	m:f#pUrvI:n
 <lex>mf<s>padI</s>n</lex>	m:f#padI:n
@@ -404,7 +403,7 @@
 <lex>nmf<s>A</s>n</lex>	m:f#A:n
 <lex>mf<s>A</s>f<s>I</s></lex>	m:f#A:f#I
 <lex>ff<s>A</s></lex>	f:f#A
-<lex>mm<s>rAja</s>f<s>rAjan</s><s>jA</s><s>jYI</s></lex>	m:f#jI:f#jA
+<lex>mm<s>rAja</s>f<s>rAjan</s><s>jA</s><s>jYI</s></lex>	m:f#jYI:f#jA
 <lex>f<s>rya</s>mfn</lex>	m#rya:f:f#ryA:n#rya
 <lex><s>RI</s>f</lex>	f#RI
 <lex>m<s>Ri</s>n</lex>	m:n#Ri
