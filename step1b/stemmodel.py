@@ -573,7 +573,11 @@ class Lexnorm(object):
      (pfx,sfx)=('',stem)
     sfx1=sfx + 'I'
     sfx1 = sandhi_n.sandhi_n(sfx1)
-    return (pfx + sfx1,'f_I')
+    if pfx == '':  # Oct 1, 2015
+     stem = pfx + sfx1
+    else: # restore the '-'
+     stem = pfx + "-" + sfx1;
+    return (stem,'f_I')
    m=re.search(r'^(.*j)an$',stem)
    if m:
     return (m.group(1)+"YI",'f_I')  # rAjan -> rajYI
