@@ -66,7 +66,7 @@ We have divided this stem-model derivation process into three steps; each
 of the steps is carried out by programs in the three subdirectories
 step0, step1a, step1b.
 
-* step0:  lexicalgrammar.xml
+#### step0:  lexicalgrammar.xml
 
   This step identifies each record in mw.xml whose markup has information in
   the `<lex>` tag, and summarizes this information in a structure form within
@@ -117,6 +117,38 @@ step0, step1a, step1b.
 <gram><dict>MW</dict><dictref>0000171.10</dictref>
 <dictkey2><![CDATA[a-karizyat]]></dictkey2><dictkey>akarizyat</dictkey>
 <dictlex><![CDATA[<lex>mfn.</lex>]]></dictlex>
-<stem>a-karizyat</stem><lexid>fap</lexid><rootclass>kf</rootclass><
-/gram>
+<stem>a-karizyat</stem><lexid>fap</lexid><rootclass>kf</rootclass>
+</gram>
 ```
+
+#### step1a: lexnorm.txt and lexnorm-other.txt
+
+This step normalizes the information of the lexicalgrammar.xml file. 
+Basically, the information of the lexicalgrammar.xml file is complicated to
+parse. So a simpler, more uniform representation is desireable for further
+computation.  
+
+For our *guru* example, here is the simplification present in lexnorm.txt:
+```
+65987	guru	guru/	m:f#vI:n
+```
+
+We present the record number (65987), the headword (guru), the extended
+headword (guru/, this is the dictkey2 field of lexicagrammar.xml), and a simplified
+version of the dictlex field (m:f#vI:n).
+
+For the special categories (pronouns, cardinals, dual-plurals, present and
+future participles), the simplified records are written to the lexnorm-other.txt
+file.
+For examples:
+```
+14749	ayam	aya/m	LEXID=pron,STEM=idam
+20173	azwan	azwan	LEXID=card,STEM=azwan
+15704	arcat	arcat	LEXID=prap,STEM=arcat,ROOTCLASS=arc-1
+171.1	akarizyat	a-karizyat	LEXID=fap,STEM=a-karizyat,ROOTCLASS=kf
+```
+
+#### step1b. filter1b_el.txt, etc.
+
+As mentioned in the *guru* example, we want to carry out the specification
+of *stem* and *model*; that's what is done by step1b..

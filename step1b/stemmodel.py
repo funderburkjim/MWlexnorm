@@ -1,4 +1,4 @@
-""" filter1b_el.py
+""" stemmodel.py
     Sep 20, 2015
     Adaptation of ejfcologne/lgtab1/filter1b_el.pl
     NOTE: sandhi_n has an 'adhoc' implementation.
@@ -823,7 +823,7 @@ def analyze_problems(probrecs,fout1):
   out = '\t'.join(outarr)
   fout1.write("%s\n" % out)
 
-def filter1b(lexnormrecs,fileout,fileout1):
+def stemmodel(lexnormrecs,fileout,fileout1):
  m=100 # debug
  m = len(lexnormrecs) # production
  for irec in xrange(0,m):
@@ -877,9 +877,9 @@ def filter1b(lexnormrecs,fileout,fileout1):
 
 if __name__ == "__main__":
  filein = sys.argv[1] # lexnorm.txt
- fileout = sys.argv[2] # filter1b_el.txt
- fileout1 = sys.argv[3] # filter1b_el_other.txt
+ fileout = sys.argv[2] # stemmodel.txt
+ fileout1 = sys.argv[3] # stemmodel_other.txt
  # There are also print statements
  lexnormrecs = init_lexnorm(filein)
  print len(lexnormrecs)," records in",filein
- filter1b(lexnormrecs,fileout,fileout1)
+ stemmodel(lexnormrecs,fileout,fileout1)
