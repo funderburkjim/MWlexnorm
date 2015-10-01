@@ -1,5 +1,4 @@
 
-:construction: **This readme.md file is under construction.**
 
 The MWlexnorm repository provides material for generation of declensions
 for the nominal forms implied by the Monier-Williams Sanskrit-English Dictionary
