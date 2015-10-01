@@ -88,3 +88,9 @@ def guttural_P(x):
  return x in gutturals
 def consonant_P(x):
  return x in consonants
+
+if __name__ == "__main__":
+ import sys
+ x = sys.argv[1]
+ y = sandhi_n(x)
+ print x," => ",y
