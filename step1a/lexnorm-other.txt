@@ -196,6 +196,7 @@
 92266	divaspfTivyO	di<sr/>vas-pfTivyO	INFLECTID=f1d,STEM=divaspfTivI
 94844	dUzyat	dUzyat	LEXID=prap,STEM=dUzyat,ROOTCLASS=duz-4
 97356	dyAvAkzame	dyA/vA--kzame	INFLECTID=f1d,STEM=dyAvAkzamA
+97357	dyAvAkzAmA	dyA/vA--kzA/mA	INFLECTID=f1d,STEM=dyAvAkzam
 97359	dyAvABUmI	dyA/vA--BUmI	INFLECTID=f1d,STEM=dyAvABUmi
 97383	dyoBUmI	dyo--BUmI	INFLECTID=f1d,STEM=dyoBUmi
 98101	dva	dva	LEXID=card,STEM=dvi

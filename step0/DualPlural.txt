@@ -67,3 +67,6 @@ aSanAyApipAse:aSanAyApipAsA:19427:f1d
 somARqapille:somARqapillA:253112:f1d
 DAyine:DAyina:100943.1:n1d
 yaRvApatye:yaRvApatya:169550.1:n1d
+; Nov 23, 2015  addition (ejf)
+; Refer https://github.com/sanskrit-lexicon/CORRECTIONS/issues/134
+dyAvAkzAmA:dyAvAkzam:97357:f1d
