@@ -68,5 +68,9 @@ somARqapille:somARqapillA:253112:f1d
 DAyine:DAyina:100943.1:n1d
 yaRvApatye:yaRvApatya:169550.1:n1d
 ; Nov 23, 2015  addition (ejf)
-; Refer https://github.com/sanskrit-lexicon/CORRECTIONS/issues/134
+; Refer https://github.com/sanskrit-lexicon/CORRECTIONS/issues/170
 dyAvAkzAmA:dyAvAkzam:97357:f1d
+; Dec 8, 2015  addition (ejf)
+; Refer https://github.com/sanskrit-lexicon/CORRECTIONS/issues/134
+; f. declension is like nadI. 'Is' (or 'IH') is vedic ending for f1p, f2p
+aBizavaRIs:aBizavaRI:12615:aBizavaRIs:f1p

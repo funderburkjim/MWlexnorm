@@ -24,6 +24,7 @@
 10120	apAsyat	apAsyat	LEXID=prap,STEM=apAsyat,ROOTCLASS=as-4
 11065	abDijO	ab-Di--jO	INFLECTID=m1d,STEM=abDija
 11400	aBijidviSvajitO	aBijid-viSvaji/tO	INFLECTID=f1d,STEM=aBijidviSvajit
+12615	aBizavaRIs	aBi-zavaRIs	INFLECTID=aBizavaRIs,STEM=aBizavaRI
 12656	aBizyat	aBi-zyat	LEXID=fap,STEM=aBi-zyat,ROOTCLASS=so
 12657	aBizyat	aBi-zyat	LEXID=fap,STEM=aBi-zyat,ROOTCLASS=so
 14147	amu	amu	LEXID=pron,STEM=adas

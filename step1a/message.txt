@@ -1,7 +1,7 @@
  64721 m <lex>m</lex>
- 51318 m:f:n <lex>mfn</lex>
+ 51317 m:f:n <lex>mfn</lex>
  33668 n <lex>n</lex>
- 32104 f <lex>f</lex>
+ 32102 f <lex>f</lex>
   5624 ind <lex>ind</lex>
   2941 m:f#A:n <lex>mf<s>A</s>n</lex>
   2725 m:f#I:n <lex>mf<s>I</s>n</lex>
@@ -13,7 +13,7 @@
    138 m:n <lex>nm</lex>
    120 m:f#A:f#I:n <lex>mf<s>A</s><s>I</s>n</lex>
    118 m:f#I <lex>mf<s>I</s></lex>
-   107 f#A <lex>f<s>A</s></lex>
+   108 f#A <lex>f<s>A</s></lex>
     83 m:f#A:n <lex>mnf<s>A</s></lex>
     65 f#A:f#I <lex>f<s>A</s><s>I</s></lex>
     43 m:f#iRI:n <lex>mf<s>iRI</s>n</lex>
