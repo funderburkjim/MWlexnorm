@@ -1,6 +1,6 @@
-198463 records processed from ../step0/lexicalgrammar.xml
+198462 records processed from ../step0/lexicalgrammar.xml
 All normlex records used
-198089 records written to file lexnorm.txt
+198088 records written to file lexnorm.txt
 374 records written to file lexnorm-other.txt
 0 records written to file error.txt
 0 records written to file message.txt
