@@ -1,6 +1,6 @@
  64727 m <lex>m</lex>
  51321 m:f:n <lex>mfn</lex>
- 33668 n <lex>n</lex>
+ 33667 n <lex>n</lex>
  32061 f <lex>f</lex>
   5624 ind <lex>ind</lex>
   2942 m:f#A:n <lex>mf<s>A</s>n</lex>
