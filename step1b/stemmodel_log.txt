@@ -1,6 +1,6 @@
-198445  records in lexnorm-all.txt
+198444  records in lexnorm-all.txt
 ?2 MW-0003300.00	atistri	m:f#I:f#is:n	<f>ati-stri m_i</f><f>ati-strI f_I</f><Q2>ati-stri f_is</Q2><f>ati-stri n_i</f>
 ?2 MW-0082274.00	tanu	m:f#vI:f#us:f#Us:n	<f>tanu m_u</f><f>tanvI f_I</f><f>tanus f_us</f><Q2>tanu f_Us</Q2><f>tanu n_u</f>
-198069 records written to stemmodel.txt
+198068 records written to stemmodel.txt
 374 records written to stemmodel_other.txt
 2 Questionable records
