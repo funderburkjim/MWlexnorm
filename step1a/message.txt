@@ -1,7 +1,7 @@
- 64726 m <lex>m</lex>
- 51321 m:f:n <lex>mfn</lex>
+ 64725 m <lex>m</lex>
+ 51320 m:f:n <lex>mfn</lex>
  33667 n <lex>n</lex>
- 32061 f <lex>f</lex>
+ 32062 f <lex>f</lex>
   5624 ind <lex>ind</lex>
   2942 m:f#A:n <lex>mf<s>A</s>n</lex>
   2726 m:f#I:n <lex>mf<s>I</s>n</lex>
@@ -177,6 +177,11 @@
 >>> 19167.2	avfzaRa	a-vfzaRa	m:f:n
 >>> 52899.1	kulapAMsula	kula--pAMsula	m:f:n
 >>> 160530	mahArajata	mahA/--rajata	m:f:n
+     4 m:f:n <lex>nmf</lex>
+>>> 21154	asfj	a/sfj	m:f:n
+>>> 77691	jarAyu	jarA/yu	m:f:n
+>>> 103554	nandi	nandi	m:f:n
+>>> 191406	vAr	vAr	m:f:n
      4 m:f#A:n <lex>mmf<s>A</s>n</lex>
 >>> 24987	ApIqa	A-pIqa	m:f#A:n
 >>> 99740	Dammilla	Dammilla	m:f#A:n
@@ -238,10 +243,6 @@
 >>> 830.1	agastyaSAsta	agastya--SAsta	m:f:n
 >>> 22443	AKA	A-KA	m:f:n
 >>> 89170	tvezin	tvezi/n	m:f:n
-     3 m:f:n <lex>nmf</lex>
->>> 77691	jarAyu	jarA/yu	m:f:n
->>> 103554	nandi	nandi	m:f:n
->>> 191406	vAr	vAr	m:f:n
      3 f#u:f#U <lex>f<s>u</s><s>U</s></lex>
 >>> 77267	jambu	jambu	f#u:f#U
 >>> 92118	diDizu	diDizu/	f#u:f#U
