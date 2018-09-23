@@ -15,3 +15,6 @@ rm mwxml.zip
 mwxml directory contains mw.xml and mw.dtd and license (mwheader.xml)
 
 The .gitignore of this directory excludes the mwxml directory.
+
+#### lexnorm-all2.txt
+python lexcat2.py mwxml/mw.xml lexnorm-all2.txt
