@@ -243,3 +243,6 @@ requiring special handling.
 
 
 
+### step2
+Recreate analogue of step1b/lexnorm-all.txt based on revised form of 
+mw.xml. (Begun Sep 22, 2018)
